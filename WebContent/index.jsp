@@ -7,7 +7,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<p>Struts 2 Tutorial</p>
+<p>Struts 2 Tutorial created by saheer</p>
 <p><a href="/Struts2HelloWorld/roseindia/HelloWorld.action">Test Struts 2 Hello World example!!</a>
 </body>
 </html>
