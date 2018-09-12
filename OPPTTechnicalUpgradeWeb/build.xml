@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="OPPTTechnicalUpgradeWeb">
+    <property environment="env"/>
+    <property name="JUNIT_HOME" value="../../../../Downloads/eclipse/plugins/org.junit_4.12.0.v201504281640/"/>
+    <property name="OPPTTechnicalUpgradeEAR.location" value="../OPPTTechnicalUpgradeEAR"/>
+    <property name="OPPTTechnicalUpgradeWeb.location" value="../OPPTTechnicalUpgradeWeb"/>
+    <property name="ECLIPSE_HOME" value="../../../../Downloads/eclipse/"/>
+    <property name="OPPTTechnicalUpgradeConnector.location" value="../OPPTTechnicalUpgradeConnector"/>
+    <property name="OPPTTechnicalUpgradeEJB.location" value="../OPPTTechnicalUpgradeEJB"/>
+    <property name="OPPTTechnicalUpgradeUtility.location" value="../OPPTTechnicalUpgradeUtility"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.6"/>
+    <property name="source" value="1.6"/>
+    <path id="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeUtility]].libraryclasspath"/>
+    <path id="Server Library [was.base.v7] (unbound).libraryclasspath"/>
+    <path id="OPPTTechnicalUpgradeUtility.classpath">
+        <pathelement location="${OPPTTechnicalUpgradeUtility.location}/."/>
+        <path refid="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeUtility]].libraryclasspath"/>
+        <path refid="OPPTTechnicalUpgradeEJB.classpath"/>
+        <pathelement location="${OPPTTechnicalUpgradeEAR.location}/log4j-1.2.13.jar"/>
+        <path refid="Server Library [was.base.v7] (unbound).libraryclasspath"/>
+        <pathelement location="${OPPTTechnicalUpgradeWeb.location}/WebContent/WEB-INF/lib/commons-collections.jar"/>
+    </path>
+    <path id="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeConnector]].libraryclasspath"/>
+    <path id="OPPTTechnicalUpgradeConnector.classpath">
+        <pathelement location="${OPPTTechnicalUpgradeConnector.location}/connectorModule"/>
+        <path refid="OPPTTechnicalUpgradeUtility.classpath"/>
+        <path refid="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeConnector]].libraryclasspath"/>
+        <path refid="Server Library [was.base.v7] (unbound).libraryclasspath"/>
+        <pathelement location="${OPPTTechnicalUpgradeEAR.location}/bpjtkcdt302.jar"/>
+    </path>
+    <path id="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeEJB]].libraryclasspath"/>
+    <path id="OPPTTechnicalUpgradeEJB.classpath">
+        <pathelement location="${OPPTTechnicalUpgradeEJB.location}/ejbModule"/>
+        <path refid="OPPTTechnicalUpgradeConnector.classpath"/>
+        <path refid="OPPTTechnicalUpgradeUtility.classpath"/>
+        <path refid="Persisted container [com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6 for project [OPPTTechnicalUpgradeEJB]].libraryclasspath"/>
+        <path refid="Server Library [was.base.v7] (unbound).libraryclasspath"/>
+    </path>
+    <path id="OPPTTechnicalUpgradeWeb.classpath">
+        <pathelement location="WebContent/WEB-INF/classes"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-beanutils.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-collections.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-validator.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-digester.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/struts.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-logging.jar"/>
+        <path refid="OPPTTechnicalUpgradeEJB.classpath"/>
+        <path refid="OPPTTechnicalUpgradeUtility.classpath"/>
+        <pathelement location="WebContent/WEB-INF/lib/avalon-framework-cvs-20020806.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/fop.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/batik.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/xerces.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/jug.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/castor-0.9.4.3-xml.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/xalan.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/ibmjsse.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/CCMS.jar"/>
+        <pathelement location="${JUNIT_HOME}/junit.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-fileupload.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/commons-lang.jar"/>
+        <pathelement location="WebContent/WEB-INF/lib/poi-2.5.1-final-20040804.jar"/>
+        <path refid="Server Library [was.base.v7] (unbound).libraryclasspath"/>
+        <pathelement location="../../../../../../Program Files (x86)/IBM/SDP/runtimes/base_v6_stub/lib/ivjejb35.jar"/>
+        <pathelement location="../../../../../../Program Files (x86)/IBM/SDP/runtimes/base_v6_stub/lib/j2ee.jar"/>
+        <pathelement location="../../../../../../Program Files (x86)/IBM/SDP/runtimes/base_v6_stub/lib/runtime.jar"/>
+        <pathelement location="../../../../../../Program Files (x86)/IBM/SDP/runtimes/base_v6_stub/lib/servletevent.jar"/>
+        <pathelement location="../../../../../../Program Files (x86)/IBM/SDP/runtimes/base_v7/java/jre/lib/rt.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="WebContent/WEB-INF/classes"/>
+        <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+            <fileset dir="JavaSource">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="WebContent/WEB-INF/classes">
+            <fileset dir=".apt_generated">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="WebContent/WEB-INF/classes"/>
+    </target>
+    <target depends="clean" name="cleanall">
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeConnector.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeEJB.location}" inheritAll="false" target="clean"/>
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeUtility.location}" inheritAll="false" target="clean"/>
+    </target>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects">
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeConnector.location}" inheritAll="false" target="build-project">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeEJB.location}" inheritAll="false" target="build-project">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+        <ant antfile="build.xml" dir="${OPPTTechnicalUpgradeUtility.location}" inheritAll="false" target="build-project">
+            <propertyset>
+                <propertyref name="build.compiler"/>
+            </propertyset>
+        </ant>
+    </target>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="WebContent/WEB-INF/classes" includeantruntime="false" source="${source}" target="${target}">
+            <src path="JavaSource"/>
+            <src path=".apt_generated"/>
+            <classpath refid="OPPTTechnicalUpgradeWeb.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+</project>

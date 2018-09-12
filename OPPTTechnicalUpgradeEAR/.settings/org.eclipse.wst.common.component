@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="OPPTTechnicalUpgradeEAR">
+        <module-type module-type-id="jst.ear">
+            <version>1.4</version>
+        </module-type>
+        <wb-resource deploy-path="/" source-path="/"/>
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module archiveName="OPPTTechnicalUpgradeConnector.jar" deploy-path="/" handle="module:/resource/OPPTTechnicalUpgradeConnector/OPPTTechnicalUpgradeConnector">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/resource/OPPTTechnicalUpgradeEJB/OPPTTechnicalUpgradeEJB">
+            <dependent-object>EjbModule_1350368024695</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OPPTTechnicalUpgradeUtility.jar" deploy-path="/" handle="module:/resource/OPPTTechnicalUpgradeUtility/OPPTTechnicalUpgradeUtility">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/classpath/lib/OPPTTechnicalUpgradeEAR/bpjtk302.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module deploy-path="/" handle="module:/classpath/lib/OPPTTechnicalUpgradeEAR/bpjtkcdt302.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="OPPTTechnicalUpgradeWeb.war" deploy-path="/" handle="module:/resource/OPPTTechnicalUpgradeWeb/OPPTTechnicalUpgradeWeb">
+            <dependent-object>WebModule_1457009083650</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

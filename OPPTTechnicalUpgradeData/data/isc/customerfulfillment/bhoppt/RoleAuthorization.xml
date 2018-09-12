@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<roleauthorization>
+	<actionrole id="CreateProposalAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ChangeProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitCreateProposalAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="FetchCustomerListAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="GetPartnersAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CustomerListSelectionAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CustomerSelectionAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="PartnerSelectionAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AlternatePartnerAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitAlternatePartnerAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SaveProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="FetchInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalDetailsAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="GoToAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SearchLicensesAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RegistrationAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitRegistrationAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalMaintenanceAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="IneligibleLicensesAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ShowIneligibleLicensesAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DeleteProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="YesConfirmationAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RenameProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="NewProposalNameAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalHistoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ErrorHistoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ErrorDetailsAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DeleteErrorHistoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="LockProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ReleaseProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalStatusAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="GroupMaintenanceAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitHomePageAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CreateGroupAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RemoveGroupAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SalesAreaUsersAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CreateUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditNonBPUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditBPUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitTransferAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalMaintenanceAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ContractMaintenanceDateRangeAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ContractMaintenanceAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ChangeContractGroupAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ReplaceContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitReplaceContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RenewContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitRenewContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ExtendContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CloseContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SimulateVarianceAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CreateVarianceAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="VarianceCheckAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EASIICopyAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ReportsAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AmendContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitAmendContractAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AmendSWOAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitAmendSWOAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="MessageViewAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CancelAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ProposalSharingAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RemoveProposalSharingAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitProposalSharingAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AddCustomerAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AddCustomerFetchInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="AddCustomerFetchPlannedInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="FetchPlannedInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="InventoryDateRangeAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="QuotesListAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SWODetailsAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="IncludeExcludeSWOAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="PriceProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RemoveSVCLicensesAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DeleteInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditCustomerAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="EditSWOAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyCustomerAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopySWOAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyBumpInventoryAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DMCopyBumpAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SWOCopyBumpAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ExcludeConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DefaultConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CopyConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SelectCopyConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ValidateConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="PriceConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CancelConfigureDMAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ConfigureDMDefaultValuesAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+
+
+	<actionrole id="SubmitSigninAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RemoveUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="ReleaseLockOnProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitCreateUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CreateNonBPUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CheckAccessRequiredAction">
+		<role>0</role>
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CreateBPUserAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitReleaseProposalAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="RegisterUserAction">
+		<role>0</role>
+	</actionrole>
+	<actionrole id="RegisterCreateUserAction">
+		<role>0</role>
+	</actionrole>
+	<actionrole id="RegisterBPUserAction">
+		<role>0</role>
+	</actionrole>
+	<actionrole id="RegisterNonBPUserAction">
+		<role>0</role>
+	</actionrole>
+	<actionrole id="TransferProposalsAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="SubmitTransferProposalsAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="UpdateSalesAreaAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="UpdateCurrencyAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="UpdatePaymentAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="UpdateBillingAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="UpdateBillingBlockAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="CancelDuplicateSerialAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>
+	<actionrole id="DuplicateSerialNumbersAction">
+		<role>1</role>
+		<role>2</role>
+		<role>3</role>
+		<role>9</role>
+		<role>4</role>
+		<role>5</role>
+		<role>7</role>
+		<role>8</role>
+	</actionrole>	
+</roleauthorization>

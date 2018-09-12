@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding=".apt_generated/" kind="src" path=""/>
+	<classpathentry exported="true" kind="con" path="com.ibm.wtp.server.java.core.container/com.ibm.ws.ast.st.runtime.core.runtimeTarget.v60/was.base.v6"/>
+	<classpathentry exported="true" kind="src" path="/OPPTTechnicalUpgradeEJB"/>
+	<classpathentry exported="true" kind="lib" path="/OPPTTechnicalUpgradeEAR/log4j-1.2.13.jar" sourcepath="/OPPTTechnicalUpgradeEAR/log4j-1.2.13.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/com.ibm.ws.ast.st.runtime.runtimeTarget.v70/was.base.v7"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/OPPTTechnicalUpgradeWeb/WebContent/WEB-INF/lib/commons-collections.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/WebSphere Application Server v7.0 JRE"/>
+	<classpathentry kind="output" path=""/>
+</classpath>

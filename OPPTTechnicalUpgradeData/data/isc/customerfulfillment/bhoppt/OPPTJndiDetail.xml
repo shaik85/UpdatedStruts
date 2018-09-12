@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<enterprise-beans>
+		<bean identifier="GeoSecOffLocalHome">
+			<ejb-reference>ejb/GeoSecOffLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.GeoSecOffLocalHome</home>
+		</bean>
+		<bean identifier="RoleLocalHome">
+			<ejb-reference>ejb/RoleLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.RoleLocalHome</home>
+		</bean>
+		<bean identifier="SalesOrgLocalHome">
+			<ejb-reference>ejb/SalesOrgLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.SalesOrgLocalHome</home>
+		</bean>
+		<bean identifier="DstrChannelLocalHome">
+			<ejb-reference>ejb/DstrChannelLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.DstrChannelLocalHome</home>
+		</bean>
+		<bean identifier="DivisionLocalHome">
+			<ejb-reference>ejb/DivisionLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.DivisionLocalHome</home>
+		</bean>
+		<bean identifier="CurrencyLocalHome">
+			<ejb-reference>ejb/CurrencyLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.CurrencyLocalHome</home>
+		</bean>
+		<bean identifier="PaymentTermLocalHome">
+			<ejb-reference>ejb/PaymentTermLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.PaymentTermLocalHome</home>
+		</bean>
+		<bean identifier="BillingBlockLocalHome">
+			<ejb-reference>ejb/BillingBlockLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.BillingBlockLocalHome</home>
+		</bean>
+		<bean identifier="BillingTypeLocalHome">
+			<ejb-reference>ejb/BillingTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.BillingTypeLocalHome</home>
+		</bean>
+		<bean identifier="BillingFrequencyLocalHome">
+			<ejb-reference>ejb/BillingFrequencyLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.BillingFrequencyLocalHome</home>
+		</bean>
+		<bean identifier="OfferingTypeLocalHome">
+			<ejb-reference>ejb/OfferingTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.OfferingTypeLocalHome</home>
+		</bean>
+		<bean identifier="ProposalDataManagerLocalHome">
+			<ejb-reference>ejb/ProposalDataManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.orgmgr.ProposalDataManagerLocalHome</home>
+		</bean>
+		<bean identifier="ProposalDataManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/ProposalDataManagerLocalHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.orgmgr.ProposalDataManagerHome</home>
+		</bean>
+		<bean identifier="ProposalManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ProposalManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.pcm.ProposalManagerHome</home>
+		</bean>
+		<bean identifier="ProposalManagerLocalHome">
+			<ejb-reference>ejb/ProposalManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.pcm.ProposalManagerLocalHome</home>
+		</bean>
+		<bean identifier="InventoryManagerLocalHome">
+			<ejb-reference>ejb/InventoryManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.invmgr.InventoryManagerLocalHome</home>
+		</bean>
+		<bean identifier="DMManagerLocalHome">
+			<ejb-reference>ejb/DMManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.dm.DMManagerLocalHome</home>
+		</bean>
+		<bean identifier="SWOManagerLocalHome">
+			<ejb-reference>ejb/SWOManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.swo.SWOManagerLocalHome</home>
+		</bean>
+		<bean identifier="SWOInfoLocalHome">
+			<ejb-reference>ejb/SWOInfoLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.swo.SWOInfoLocalHome</home>
+		</bean>
+		<bean identifier="PriceLocalHome">
+			<ejb-reference>ejb/PriceLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.PriceLocalHome</home>
+		</bean>
+		<bean identifier="VariancePriceLocalHome">
+			<ejb-reference>ejb/VariancePriceLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.VariancePriceLocalHome</home>
+		</bean>
+		<bean identifier="EELocalHome">
+			<ejb-reference>ejb/EELocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.EELocalHome</home>
+		</bean>
+		<bean identifier="TempEELocalHome">
+			<ejb-reference>ejb/TempEELocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.TempEELocalHome</home>
+		</bean>
+		<bean identifier="VarianceEELocalHome">
+			<ejb-reference>ejb/VarianceEELocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.VarianceEELocalHome</home>
+		</bean>
+		<bean identifier="HistoryEELocalHome">
+			<ejb-reference>ejb/HistoryEELocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.HistoryEELocalHome</home>
+		</bean>
+		<bean identifier="SWOLocalHome">
+			<ejb-reference>ejb/SWOLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.SWOLocalHome</home>
+		</bean>
+		<bean identifier="HistorySWOLocalHome">
+			<ejb-reference>ejb/HistorySWOLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.HistorySWOLocalHome</home>
+		</bean>
+		<bean identifier="VarianceSWOLocalHome">
+			<ejb-reference>ejb/VarianceSWOLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.swo.VarianceSWOLocalHome</home>
+		</bean>
+		<bean identifier="DMLocalHome">
+			<ejb-reference>ejb/DMLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.dm.DMLocalHome</home>
+		</bean>
+		<bean identifier="HistoryDMLocalHome">
+			<ejb-reference>ejb/HistoryDMLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.dm.HistoryDMLocalHome</home>
+		</bean>
+		<bean identifier="VarianceDMLocalHome">
+			<ejb-reference>ejb/VarianceDMLocal</ejb-reference>
+
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.dm.VarianceDMLocalHome</home>
+		</bean>
+		<bean identifier="CustomerLocalHome">
+			<ejb-reference>ejb/CustomerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.customer.CustomerLocalHome</home>
+		</bean>
+		<bean identifier="HistoryCustomerLocalHome">
+			<ejb-reference>ejb/HistoryCustomerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.customer.HistoryCustomerLocalHome</home>
+		</bean>
+
+		<bean identifier="SalesAreaLocalHome">
+			<ejb-reference>ejb/SalesAreaLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.SalesAreaLocalHome</home>
+		</bean>
+		<bean identifier="ProposalLocalHome">
+			<ejb-reference>ejb/ProposalLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.proposalcontract.ProposalLocalHome</home>
+		</bean>
+		<bean identifier="SharingLocalHome">
+			<ejb-reference>ejb/SharingLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.proposalcontract.SharingLocalHome</home>
+		</bean>
+
+
+		<bean identifier="JMSConnectorLocalHome">
+			<ejb-reference>ejb/JMSConnectorLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.connector.JMSConnectorLocalHome</home>
+		</bean>
+
+		<bean identifier="UserProfileLocalHome">
+			<ejb-reference>ejb/UserProfileLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.UserProfileLocalHome</home>
+		</bean>
+
+		<bean identifier="BPLegacyNoLocalHome">
+			<ejb-reference>ejb/BPLegacyNoLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.BPLegacyNoLocalHome</home>
+		</bean>
+
+		<bean identifier="BPCustListLocalHome">
+			<ejb-reference>ejb/BPCustListLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.BPCustListLocalHome</home>
+		</bean>
+		<bean identifier="UserManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/UserManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.orgmgr.UserManagerHome</home>
+		</bean>
+		<bean identifier="GroupManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/GroupManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.orgmgr.GroupManagerHome</home>
+		</bean>
+		<bean identifier="GroupLocalHome">
+			<ejb-reference>ejb/GroupLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.GroupLocalHome</home>
+		</bean>
+
+		<bean identifier="CustomerListLocalHome">
+			<ejb-reference>ejb/CustomerListLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.proposalcontract.CustomerListLocalHome</home>
+		</bean>
+		<bean identifier="AccessHistoryLocalHome">
+			<ejb-reference>ejb/AccessHistoryLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.proposalcontract.AccessHistoryLocalHome</home>
+		</bean>
+	        <!-- Added by Nomita as a part of activity log-->  
+		<bean identifier="ActivityLogLocalHome">
+			<ejb-reference>ejb/ActivityLogLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.ActivityLogLocalHome</home>
+		</bean>
+		<!-- Added by Nomita as a part of activity log-->  
+		<bean identifier="ErrorListLocalHome">
+			<ejb-reference>ejb/ErrorListLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.proposalcontract.ErrorListLocalHome</home>
+		</bean>
+		<bean identifier="PriceManagerLocalHome">
+			<ejb-reference>ejb/PriceManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.invmgr.PriceManagerLocalHome</home>
+		</bean>
+		<bean identifier="EEPriceManagerLocalHome">
+			<ejb-reference>ejb/EEPriceManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.swomgr.EEPriceManagerLocalHome</home>
+		</bean>
+
+		<bean identifier="UserManagerLocalHome">
+			<ejb-reference>ejb/UserManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.orgmgr.UserManagerLocalHome</home>
+		</bean>
+
+		<bean identifier="StatusLocalHome">
+			<ejb-reference>ejb/StatusLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.StatusLocalHome</home>
+		</bean>
+		<bean identifier="ReportManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/reportmgr/ReportManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.reportmgr.ReportManagerHome</home>
+		</bean>
+		<bean identifier="ErrorListManagerLocalHome">
+			<ejb-reference>ejb/ErrorListManagerLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.pcm.ErrorListManagerLocalHome</home>
+		</bean>
+		<bean identifier="ESWDataLocalHome">
+			<ejb-reference>ejb/ESWDataLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.pcm.ESWDataLocalHome</home>
+		</bean>
+
+		<bean identifier="UserGroupLocalHome">
+			<ejb-reference>ejb/UserGroupLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistance.organization.UserGroupLocalHome</home>
+		</bean>
+		<!--  Changes for BaseAgreement Starts -->
+		<bean identifier="BARoleLocalHome">
+			<ejb-reference>ejb/BARoleLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BARoleLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementLocalHome">
+			<ejb-reference>ejb/BaseAgreementLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementCoverageTypeLocalHome">
+			<ejb-reference>ejb/BaseAgreementCoverageTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementCoverageTypeLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementFormLocalHome">
+			<ejb-reference>ejb/BaseAgreementFormLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementFormLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementModificationDetailsLocalHome">
+			<ejb-reference>ejb/BaseAgreementModificationDetailsLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementModificationDetailsLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementModificationTypeLocalHome">
+			<ejb-reference>ejb/BaseAgreementModificationTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementModificationTypeLocalHome</home>
+		</bean>
+		<bean identifier="BaseAgreementStatusLocalHome">
+			<ejb-reference>ejb/BaseAgreementStatusLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementStatusLocalHome</home>
+		</bean>
+		<bean identifier="ModificationOptionsLocalHome">
+			<ejb-reference>ejb/ModificationOptionsLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.ModificationOptionsLocalHome</home>
+		</bean>
+		<bean identifier="UserTypeLocalHome">
+			<ejb-reference>ejb/UserTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.UserTypeLocalHome</home>
+		</bean>
+
+		<bean identifier="BaseAgreementChangeLogLocalHome">
+			<ejb-reference>ejb/BaseAgreementChangeLogLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.baseagreement.BaseAgreementChangeLogLocalHome</home>
+		</bean>
+		<bean identifier="CCTypeLocalHome">
+			<ejb-reference>ejb/CCTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.CCTypeLocalHome</home>
+		</bean>
+		
+		<bean identifier="MCTypeLocalHome">
+			<ejb-reference>ejb/MCTypeLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.MCTypeLocalHome</home>
+		</bean>
+		<bean identifier="BLBIndicatorLocalHome">
+			<ejb-reference>ejb/BLBIndicatorLocal</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.BLBIndicatorLocalHome</home>
+		</bean>  
+		
+		<bean identifier="BaseAgreementManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/baseagreement/BaseAgreementManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.baseagreement.BaseAgreementManagerHome</home>
+		</bean>
+		
+		<bean identifier="BaseAgreementDataManagerHome">
+			<ejb-jndi>ejb/com/ibm/isc/customerfulfillment/bhoppt/service/baseagreement/BaseAgreementDataManagerHome</ejb-jndi>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.service.baseagreement.BaseAgreementDataManagerHome</home>
+		</bean>
+		<!--  Changes foe Auto populate Starts. DAD001 - Anand sugumaran -->
+			<bean identifier="ProposalCountLocalHome">
+			<ejb-reference>ejb/ProposalCount</ejb-reference>
+			<home>com.ibm.isc.customerfulfillment.bhoppt.persistence.proposalcontract.ProposalCountLocalHome</home>
+		</bean>
+	
+		<!--  Changes foe Auto populate Ends. DAD001 - Anand sugumaran -->
+			
+
+		<!--  Changes foe BaseAgreement Ends -->		
+	</enterprise-beans>
+
+	<data-source>
+	   <jndi-name>jdbc/isc_customerfulfillment_bhoppt_BHFE1</jndi-name> 
+		<!--  <jndi-name>jdbc/opptdatasource</jndi-name> -->
+	</data-source>
+	<mail-session>
+		<jndi-name>mail/StandardMailSession</jndi-name>
+	</mail-session>
+	<jms>
+		<jndi-name>jms/queueconnectionfactory</jndi-name>
+	</jms>
+</configuration>

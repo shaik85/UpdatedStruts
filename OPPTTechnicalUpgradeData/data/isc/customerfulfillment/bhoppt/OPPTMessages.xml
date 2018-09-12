@@ -1,0 +1,3379 @@
+<OPPTMessages>
+	<messageType type="BackEnd">
+		<message id="1">
+			<value>Cannot login to SAP</value>
+		</message>
+		<message id="2">
+			<value>Wrong function module name</value>
+		</message>
+		<message id="3">
+			<value>No/Blank input data from the web</value>
+		</message>
+		<message id="4">
+			<value>SAP internal message</value>
+		</message>
+		<message id="11">
+			<value>Matching error in input parsing</value>
+		</message>
+		<message id="12">
+			<value>No/Blank session id value</value>
+		</message>
+		<message id="13">
+			<value>Userid blank or not found in SAP</value>
+		</message>
+		<message id="14">
+			<value>Authorization failed for userid</value>
+		</message>
+		<message id="15">
+			<value>Incorrect sales area</value>
+		</message>
+		<message id="16">
+			<value>Invalid customer number or access to customer number is not allowed.</value>
+		</message>
+		<message id="17">
+			<value>Index table entry locked in SAP, try after some time</value>
+		</message>
+		<message id="18">
+			<value>Invalid customer class, not 33 or 35</value>
+		</message>
+		<message id="20">
+			<value>No Site Id found or access to Site Id number is not allowed.</value>
+		</message>
+		<message id="21">
+			<value>External contract number not sent</value>
+		</message>
+		<message id="22">
+			<value>Status not sent</value>
+		</message>
+		<message id="23">
+			<value>Invalid contract end date</value>
+		</message>
+		<message id="24">
+			<value>Dates different</value>
+		</message>
+		<message id="25">
+			<value>Invalid status, change of status not permitted</value>
+		</message>
+		<message id="26">
+			<value>Status change error</value>
+		</message>
+		<message id="27">
+			<value>Contract extend error</value>
+		</message>
+		<message id="28">
+			<value>Invalid document category</value>
+		</message>
+		<message id="29">
+			<value>No entitled entities for the selected customers</value>
+		</message>
+		<message id="">
+			<value>Price calculation error</value>
+		</message>
+		<message id="31">
+			<value>Currency conversion error</value>
+		</message>
+		<message id="32">
+			<value>Internal contract not in appropriate status</value>
+		</message>
+		<message id="40">
+			<value>Contract with specified external contract number is existing already</value>
+		</message>
+		<message id="41">
+			<value>At least one of items received from the Web is used already in contract with inappropriate status</value>
+		</message>
+		<message id="42">
+			<value>Billing plan cancellation of one of the related orders failed</value>
+		</message>
+		<message id="43">
+			<value>Wrong sequence number</value>
+		</message>
+		<message id="44">
+			<value>One of the EE has deletion indicator</value>
+		</message>
+		<message id="45">
+			<value>Error in price override</value>
+		</message>
+		<message id="46">
+			<value>Contract being processed</value>
+		</message>
+		<message id="47">
+			<value>No internal contracts found</value>
+		</message>
+		<message id="48">
+			<value>Text for new contract not created the status change is successful</value>
+		</message>
+		<message id="49">
+			<value>Failed in ZGNO order creation</value>
+		</message>
+		<message id="50">
+			<value>There are several customers in ESW with specified Site ID number. Please enter country code</value>
+		</message>
+		<message id="51">
+			<value>Invalid partner function</value>
+		</message>
+		<message id="52">
+			<value>Partner blank</value>
+		</message>
+		<message id="53">
+			<value>Partner does not exist or access to partner is not allowed.</value>
+		</message>
+		<message id="54">
+			<value>Partner not valid for sales area</value>
+		</message>
+		<message id="55">
+			<value>Partner not valid as the partner function</value>
+		</message>
+		<message id="56">
+			<value>Sales org not supported for OPPT</value>
+		</message>
+		<message id="57">
+			<value>Partner is marked for deletion</value>
+		</message>
+		<message id="58">
+			<value>User Profile is not supported for one of Sales Orgs</value>
+		</message>
+		<message id="60">
+			<value>Table ZFV_OPPTSCH not accessible</value>
+		</message>
+		<message id="61">
+			<value>External contract number does not exist in the status table</value>
+		</message>
+		<message id="62">
+			<value>Wrong/Invalid operation code</value>
+		</message>
+		<message id="63">
+			<value>Subsequent contract not found</value>
+		</message>
+		<message id="64">
+			<value>Incorrect sales org</value>
+		</message>
+		<message id="65">
+			<value>Incorrect userid / Userid does not exist in SAP</value>
+		</message>
+		<message id="66">
+			<value>Invalid authorization</value>
+		</message>
+		<message id="67">
+			<value>Price could not be determined</value>
+		</message>
+		<message id="68">
+			<value>Default charge option could not be retrieved</value>
+		</message>
+		<message id="69">
+			<value>No possible entries found</value>
+		</message>
+		<message id="71">
+			<value>Wrong operation</value>
+		</message>
+		<message id="72">
+			<value>Internal contract creation failure</value>
+		</message>
+		<message id="73">
+			<value>Internal contract creation okay, BP cancellation failure</value>
+		</message>
+		<message id="74">
+			<value>Int. contract change failure</value>
+		</message>
+		<message id="75">
+			<value>Int. Contract change failure (no ZGNO processing)</value>
+		</message>
+		<message id="76">
+			<value>Int. contract change okay and ZGNO failure</value>
+		</message>
+		<message id="77">
+			<value>Int. contract change failure</value>
+		</message>
+		<message id="78">
+			<value>Contract change okay but new contract creation failure</value>
+		</message>
+		<message id="79">
+			<value>Contract change okay but new contract creation okay but BP cancellation failed</value>
+		</message>
+		<message id="80">
+			<value>Contract in process</value>
+		</message>
+		<message id="81">
+			<value>New contract creation okay ,BP cancellation okay but failed to update custom tables</value>
+		</message>
+		<message id="82">
+			<value>Contract change okay, new contract creation okay</value>
+		</message>
+		<message id="90">
+			<value>Entries not found in Zfv_opptidx database Table</value>
+		</message>
+		<message id="91">
+			<value>VM not supported</value>
+		</message>
+		<message id="92">
+			<value>No recurring charge option for the selected VM</value>
+		</message>
+		<message id="93">
+			<value>No distribution channel provided from OPPT Web front-end</value>
+		</message>
+		<message id="94">
+			<value>No division provided from OPPT Web front-end</value>
+		</message>
+		<message id="95">
+			<value>No offering type provided from OPPT Web front-end</value>
+		</message>
+		<message id="96">
+			<value>Access to sales area not allowed for user</value>
+		</message>
+		<message id="97">
+			<value>Not a valid sales area combination</value>
+		</message>
+		<message id="98">
+			<value>Access to offering type not allowed for user</value>
+		</message>
+		<message id="99">
+			<value>Access to sales area and offering type not allowed for user</value>
+		</message>
+		<message id="100">
+			<value>Generic internal SAP error</value>
+		</message>
+		<message id="101">
+			<value>Access to offering type not allowed for user, sales area combination not valid.</value>
+		</message>
+		<message id="102">
+			<value>User has no access to one of the customers</value>
+		</message>
+		<message id="103">
+			<value>Sales Group is not found</value>
+		</message>
+		<message id="104">
+			<value>Channel Role is not found</value>
+		</message>
+		<message id="105">
+			<value>Submitter Role is not found</value>
+		</message>
+		<message id="106">
+			<value>Not a valid distribution channel combination</value>
+		</message>
+		<message id="107">
+			<value>Invalid CPS id</value>
+		</message>
+		<message id="200">
+			<value>Timed out error</value>
+		</message>
+		<message id="300">
+			<value>Inconsistent data from SAP</value>
+		</message>
+		<message id="500">
+			<value>Invalid Customer number/Site Id</value>
+		</message>
+		<message id="502">
+			<value>Access to the proposal denied due to profile mismatch with creator of the proposal</value>
+		</message>
+		<message id="601">
+			<value>Variance report in process</value>
+		</message>
+		<message id="610">
+			<value>Variance report failed</value>
+		</message>
+		<message id="611">
+			<value>Variance already exists</value>
+		</message>
+		<message id="612">
+			<value>Variance report does not exist</value>
+		</message>
+		<message id="71">
+			<value>Wrong operation</value>
+		</message>
+		<message id="72">
+			<value>Failure during internal contract creation</value>
+		</message>
+		<message id="73">
+			<value>Failure during order billing plan update</value>
+		</message>
+		<message id="74">
+			<value>Failure during internal contract creation</value>
+		</message>
+		<message id="75">
+			<value>Failure during creation of expiry orders</value>
+		</message>
+		<message id="76">
+			<value>Failure during creation of expiry orders</value>
+		</message>
+		<message id="77">
+			<value>Failure during internal contract creation</value>
+		</message>
+		<message id="78">
+			<value>Failure during internal contract creation</value>
+		</message>
+		<message id="79">
+			<value>Failure during order billing plan update</value>
+		</message>
+		<message id="80">
+			<value>Contract create / change in progress</value>
+		</message>
+		<message id="81">
+			<value>Failure during OPPT tables update</value>
+		</message>
+		<message id="82">
+			<value>Failure during OPPT tables update</value>
+		</message>
+		<message id="270">
+			<value>Inventory check failed - please check for items covered by another contract</value>
+		</message>
+		<message id="271">
+			<value>Error while creating internal contracts</value>
+		</message>
+		<message id="272">
+			<value>Error while creating internal contracts</value>
+		</message>
+		<message id="273">
+			<value>Error occurred for billing plan cancellation</value>
+		</message>
+		<message id="274">
+			<value>Error occurred for contract inventory tables update</value>
+		</message>
+		<message id="275">
+			<value>Error occurred for contract billing date update</value>
+		</message>
+		<message id="276">
+			<value>Error occurred for TP identifier update on sales document</value>
+		</message>
+		<message id="277">
+			<value>Error occurred for TP identifier update on contract document</value>
+		</message>
+		<message id="280">
+			<value>Error while creating internal contracts</value>
+		</message>
+		<message id="281">
+			<value>Error while creating internal contracts</value>
+		</message>
+		<message id="282">
+			<value>Error occurred for billing plan cancellation</value>
+		</message>
+		<message id="283">
+			<value>Error occurred for contract inventory tables update</value>
+		</message>
+		<message id="284">
+			<value>Error occurred for contract billing date update</value>
+		</message>
+		<message id="285">
+			<value>Contract create successful, but error occurred for contract status table update</value>
+		</message>
+		<message id="286">
+			<value>Error occurred after updation of TP identifier on sales document</value>
+		</message>
+		<message id="287">
+			<value>Error occurred after updation of TP identifier on contract document</value>
+		</message>
+		<message id="370">
+			<value>Error during internal contracts check</value>
+		</message>
+		<message id="371">
+			<value>Error during update of internal contracts</value>
+		</message>
+		<message id="372">
+			<value>Error occurred during creation of expiry orders / OPPT tables update</value>
+		</message>
+		<message id="373">
+			<value>Error occurred for billing plan cancellation</value>
+		</message>
+		<message id="374">
+			<value>Error occurred for contract inventory tables update</value>
+		</message>
+		<message id="376">
+			<value>Error occurred for TP identifier update on sales document</value>
+		</message>
+		<message id="377">
+			<value>Error occurred for TP identifier update on contract document</value>
+		</message>
+		<message id="380">
+			<value>Error during internal contracts updation</value>
+		</message>
+		<message id="381">
+			<value>Error occurred during creation of expiry orders / OPPT tables update</value>
+		</message>
+		<message id="382">
+			<value>Error occurred for billing plan cancellation</value>
+		</message>
+		<message id="383">
+			<value>Error occurred for contract inventory tables update</value>
+		</message>
+		<message id="386">
+			<value>Error occurred after updation of TP identifier on sales document</value>
+		</message>
+		<message id="387">
+			<value>Error occurred after updation of TP identifier on contract document</value>
+		</message>
+		<message id="470">
+			<value>Error during internal contracts check</value>
+		</message>
+		<message id="471">
+			<value>Error during updation of internal contracts</value>
+		</message>
+		<message id="472">
+			<value>Error occurred during creation of expiry orders / OPPT tables update</value>
+		</message>
+		<message id="480">
+			<value>Error during update of internal contracts</value>
+		</message>
+		<message id="481">
+			<value>Error occurred during creation of expiry orders / OPPT tables update</value>
+		</message>
+		<message id="200020">
+			<value>IR_PERSON_DATA_ERROR</value>
+		</message>
+		<message id="200040">
+			<value>IR_USER_NOT_FOUND</value>
+		</message>
+		<message id="200060">
+			<value>IR_INTERNAL_ERROR</value>
+		</message>
+		<message id="200080">
+			<value>IR_CANNOT_ALLOC_ERROR</value>
+		</message>
+		<message id="200090">
+			<value>IR_NULL_ERROR_LIST</value>
+		</message>
+		<message id="200100">
+			<value>IR_OUT_OF_MEMORY</value>
+		</message>
+		<message id="CE0801">
+			<value>Invalid return code from SAP</value>
+		</message>
+		<message id="FI29">
+			<value>No valid entitled entities found</value>
+		</message>
+		<message id="DE29">
+			<value>No changes have occurred in the SAP database</value>
+		</message>
+		<message id="RE29">
+			<value>No changes have occurred in the SAP database</value>
+		</message>
+		<message id="FP29">
+			<value>No data for Planned Inventory</value>
+		</message>
+		<message id="1000">
+			<value>SAP CBS update not successful.</value>
+		</message>
+		<message id="1010">
+			<value>Customer no. not valid in CBS!</value>
+		</message>
+		<message id="1020">
+			<value>Enterprise no. not valid in CBS!</value>
+		</message>
+		<message id="482">
+			<value>No match found in SAP system for the entered CPS id. Please check and reenter the CPS id to fetch the corresponding BLB indicator, contract type and OCPS id</value>			
+		</message>
+		<message id="483">
+			<value>WARNING -CPS id cannot be blank for selected Sales organization.</value>			
+		</message>
+	</messageType>
+	<messageType type="Domain">
+		<message id="10">
+			<value>Proposal is missing</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="11">
+			<value>Combination not supported</value>
+			<inputFields>
+				<fieldName>SalesOrg</fieldName>
+				<fieldName>DistributionChannel</fieldName>
+				<fieldName>Division</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0001">
+			<value>Requested operation cannot be performed due to insufficient access of the user on the proposal/contract.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0002">
+			<value>Proposal/contract is not in the right status to perform the requested operation.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0003">
+			<value>Requested operation is not supported for EAS II Proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0040">
+			<value>Proposal type is allowed only for sales organization USA or Canada or Brazil.</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0041">
+			<value>Proposal type not supported for the selected sales org.</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0042">
+			<value>Selected billing frequency is not supported for the selected proposal type.</value>
+			<inputFields>
+				<fieldName>billingFrequency</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0043">
+			<value>TP proposal can only have contract period duration of 3 months</value>
+			<inputFields>
+				<fieldName>contractPeriodBeginning</fieldName>
+				<fieldName>contractPeriodEnding</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0044">
+			<value>Both add value days and fixed val date cannot be selected</value>
+			<inputFields>
+				<fieldName>addValueDays</fieldName>
+				<fieldName>fixedValueDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0004">
+			<value>Selected billing frequency is not supported for selected sales organization and proposal type.</value>
+			<inputFields>
+				<fieldName>billingFrequency</fieldName>
+				<fieldName>salesOrganization</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0005">
+			<value>Planned growth is not supported for selected proposal.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0006">
+			<value>Growth limit is not supported for selected proposal.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0007">
+			<value>Planned growth should be between -99 and 200.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0008">
+			<value>Growth limit should be between -99 and 200.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0009">
+			<value>Only two decimal places allowed.</value>
+			<inputFields></inputFields>
+		</message>
+	<!-- BlueHarmony DAD007 Changed by Anand Sugumaran -->
+		<message id="DE0010">
+			<value>The anniversary/period contract amount should be dividable by the number of months in the contract period.</value>
+			<inputFields></inputFields>
+		</message>
+		<!-- BlueHarmony DAD007 Changes End by Anand Sugumaran -->
+		<message id="DE0011">
+			<value>Anniversary contract amount is not supported for selected proposal type.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0012">
+			<value>TVM rate is allowed only if billing frequency is annual.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0013">
+			<value>TVM rate is only allowed when sales organization is USA or Canada or Brazil.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0014">
+			<value>TVM not allowed for selected proposal type.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0015">
+			<value>TVM rate is only allowed when sales organization is USA or Canada or Brazil.</value>
+			<inputFields>
+				<fieldName>discount</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0016">
+			<value>Allowed range for tvm is from 0 to 50.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0021">
+			<value>Detailed invoice supported only for sales organizations USA and Canada or Brazil</value>
+			<inputFields>
+				<fieldName>detailedInvoice</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0020">
+			<value>GSA is supported only for sales org USA</value>
+			<inputFields>
+				<fieldName>gsaInd</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0019">
+			<value>Not supported for selected proposal type.</value>
+			<inputFields>
+				<fieldName>sandsExcluded</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0022">
+			<value>Contract end date cannot be less than contract start date. Please select a valid date</value>
+			<inputFields>
+				<fieldName>contractStartDate</fieldName>
+				<fieldName>contractEndDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0023">
+			<value>Contract period end date cannot be less than contract period beginning date. Please select a valid date</value>
+			<inputFields>
+				<fieldName>contractPeriodBeginning</fieldName>
+				<fieldName>contractPeriodEnding</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0024">
+			<value>Contract period end date cannot be after contract end date. Please select a valid date.</value>
+			<inputFields>
+				<fieldName>contractEndDate</fieldName>
+				<fieldName>contractPeriodEnding</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0025">
+			<value>Contract period beginning date cannot be after contract start date. Please select a valid date.</value>
+			<inputFields>
+				<fieldName>contractStartDate</fieldName>
+				<fieldName>contractPeriodBegening</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0026">
+			<value>No proposals for this user.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0027">
+			<value>Contract start day should be the first day of the month for selected proposal type</value>
+			<inputFields>
+				<fieldName>contractStartDate</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0028">
+			<value>Contract end day should be the last day of the month for selected proposal type</value>
+			<inputFields>
+				<fieldName>contractEndDate</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0029">
+			<value>Contract period duration cannot be more than one year</value>
+			<inputFields>
+				<fieldName>contractPeriodBeginning</fieldName>
+				<fieldName>contractPeriodEnding</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0030">
+			<value>Contract period start day should be the first day of the month for selected proposal type</value>
+			<inputFields>
+				<fieldName>contractPeriodBeginning</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0031">
+			<value>Contract period end day should be the last day of the month for selected proposal type</value>
+			<inputFields>
+				<fieldName>contractPeriodEnding</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0045">
+			<value>Transaction is not supported for contract type</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0046">
+			<value>CAP variance should be positive</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0047">
+			<value>Please select proper currency for the sales organization</value>
+			<inputFields>
+				<fieldName>currency</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0048">
+			<value>For S&amp;S contract only annual billing frequency is allowed</value>
+			<inputFields>
+				<fieldName>billingFrequency</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0049">
+			<value>Contract duration cannot be more than 10 years for the selected proposal type</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+				<fieldName>contractStartDate</fieldName>
+				<fieldName>contractEndDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0050">
+			<value>Proposal content should be selected for the selected proposal type</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+				<fieldName>proposalContent</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0051">
+			<value>Proposal content is not allowed for selected proposal type</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+				<fieldName>proposalContent</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0052">
+			<value>S&amp;S anniversary contract amount not allowed for selected proposal content</value>
+			<inputFields>
+				<fieldName>proposalContent</fieldName>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+
+			</inputFields>
+		</message>
+		<message id="DE0053">
+			<value>S&amp;S anniversary contract amount is mandatory for the selected proposal content</value>
+			<inputFields>
+				<fieldName>proposalContent</fieldName>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE0054">
+			<value>S&amp;S anniversary contract amount is not allowed for selected proposal type</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+
+			</inputFields>
+		</message>
+
+		<message id="DE0055">
+			<value>Advance billing should be selected for the selected proposal content</value>
+			<inputFields>
+				<fieldName>proposalContent</fieldName>
+				<fieldName>advance</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0056">
+			<value>Deviating date rule is not allowed for the selected proposal content</value>
+			<inputFields>
+				<fieldName>proposalContent</fieldName>
+				<fieldName>deviatingDateRule</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0057">
+			<value>Billing date rule is not allowed for the selected proposal content</value>
+			<inputFields>
+				<fieldName>proposalContent</fieldName>
+				<fieldName>billingDateRule</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0058">
+			<value>Cap amount is not allowed for the selected proposal type</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+
+
+		<message id="DE0061">
+			<value>Planned growth is compulsory if the growth limit is entered.</value>
+			<inputFields>
+				<fieldName>plannedGrowth</fieldName>
+				<fieldName>growthLimit</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="DE0062">
+			<value>Growth limit is compulsory if the planned growth is entered.</value>
+			<inputFields>
+				<fieldName>plannedGrowth</fieldName>
+				<fieldName>growthLimit</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="DE0063">
+			<value>Exceeding amount cannot be zero or empty.</value>
+			<inputFields>
+				<fieldName>exceedingAmount</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="DE0101">
+			<value>Configure DM process is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0102">
+			<value>Edit inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0103">
+			<value>Copy inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0104">
+			<value>Bump inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0105">
+			<value>Delta-fetch is not allowed for selected contract</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0106">
+			<value>Fetch inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0107">
+			<value>Fetch planned inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0108">
+			<value>Fetch ineligible inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0109">
+			<value>Delete inventory is not allowed</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0110">
+			<value>Plan dates provided for copy bump DM are not valid</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0111">
+			<value>Plan dates for copy bump SWO are not valid</value>
+			<inputFields></inputFields>
+		</message>
+
+
+
+		<message id="DE0300">
+			<value>Proposal Status is not a valid one. Status should be PRICED or DRAFT</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0301">
+			<value>Proposal type is not valid. Proposal type should be TP</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0302">
+			<value>Proposal should be original or renewed.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0303">
+			<value>Sharing is not allowed on a locked proposal.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0304">
+			<value>Valid inventory</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0401">
+			<value>Proposal must be priced before it can be registered</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0402">
+			<value>Proposal must be re-priced before it can be registered</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0403">
+			<value>Inventory must be re-fetched before it can be registered</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0404">
+			<value>Ineligible licenses fetch is required to be done before registration</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0405">
+			<value>Delete all the SVC licenses before sending proposal for approval</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0406">
+			<value>Proposal is already sent for approval</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0407">
+			<value>Ineligible licenses fetch is required to be done before contract registration</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0408">
+			<value>Contract closure is not allowed.Original ESSO is in Check Variance status</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0409">
+			<value>Variance is in progress.Revert the variance before contract closure</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0410">
+			<value>Only the latest variance contract can be closed</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0411">
+			<value>Delta fetch is not done as on today</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0412">
+			<value>Proposal with status 'Failed to register in ECC' or 'Check proposal status' cannot be deleted</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0413">
+			<value>Proposal is shared with another user</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0414">
+			<value>Delete cannot be performed. Perform a revert on the contract in contract administration screen</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0415">
+			<value>Selected contract cannot be deleted. Contract status should be CLOSED before deletion</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0416">
+			<value>No error history for the proposal/contract is present.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0417">
+			<value>Access history for the proposal/contract is not present</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0418">
+			<value>Proposal cannot be locked. Sharing rule violation</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0419">
+			<value>Proposal cannot be locked. Locking rule violation</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0420">
+			<value>Selected proposal/contract is already locked</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0421">
+			<value>User should be in a group to perform this operation</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0422">
+			<value>Proposal cannot be locked. Proposal status is waiting for approval</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0423">
+			<value>Proposal locked by another user</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0424">
+			<value>Proposal not shared with the user-id</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0425">
+			<value>Proposal is not locked.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0426">
+			<value>Proposal/Contract should be in check status to perform this operation.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0427">
+			<value>Proposal/Contract should be in check status to perform this operation.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0428">
+			<value>Contract extension day should be either first or last day of the month</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0429">
+			<value>Contract extension date must be less than or equal to contract period end date + 3 months</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0430">
+			<value>Delete all quotes before sending proposal for registration.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0431">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0432">
+			<value>Status for the selected contract can be updated by updating the status of the new proposal.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0433">
+			<value>Contract must be priced before it can be registered</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0434">
+			<value>Contract extension date must be greater than or equal to contract period end date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0435">
+			<value>The external contract number associated with a license of this TP proposal does not have a related EAS contract. Hence, overlay relation cannot be made</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0436">
+			<value>Registration is not allowed due to invalid CPS id.</value>			
+		</message>
+
+
+
+
+
+
+		<message id="DE0601">
+			<value>Requested user is not present in the system</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0602">
+			<value>Proposal/Contract is not in the required status for the operation to be performed</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0603">
+			<value>Requested operation is not supported for variance proposal or variance contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0604">
+			<value>Requested operation is not supported for EAS II proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0605">
+			<value>Requested operation is not supported for the proposal type</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0606">
+			<value>User is not authorized to approve/reject a proposal or contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0607">
+			<value>Alternate price change is not allowed at EE level as it is already changed at SWO level.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0608">
+			<value>Revert is possible only for a EAS II proposal which is already replaced</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0609">
+			<value>Contract closure date must be greater than contract period start date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0610">
+			<value>Contract closure date must be greater than or equal to the contract period start date - 1 day</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0611">
+			<value>Contract closure date must be less than or equal to the contract period end date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0612">
+			<value>Contract closure date must be greater than amendment effective date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0613">
+			<value>Contract closure date must be greater than contract period end date of the related TP contract or first close the related TP contract with closure date prior to the closure date of the overlay contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0614">
+			<value>Contract closure date is not a valid date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0615">
+			<value>Operation cannot be performed as the license is not locked</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0616">
+			<value>Operation cannot be performed as the license is already bumped</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0617">
+			<value>Operation is not supported for an SVC license</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0618">
+			<value>Amendment start date of the license should be greater than or equal to contract period start date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0619">
+			<value>Amendment start date of the license must be less than the contract period end date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0620">
+			<value>Amendment dates for the license are not valid dates</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0621">
+			<value>Amendment start date of the license must be less than the amendment end date of the license</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0622">
+			<value>Amendment start date of the license must be greater than the contract period start date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0623">
+			<value>Amendment end date must be less than or equal to the contract period end date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0624">
+			<value>Operation is not supported for an MLC license</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0625">
+			<value>Unable to remove BP Site ID number</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0626">
+			<value>Unable to remove BP Site Id</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0627">
+			<value>Unable to remove the user</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0628">
+			<value>Unable to create the user</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0629">
+			<value>Unable to create BP Site ID number</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0630">
+			<value>Unable to create BP Site Id</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0631">
+			<value>Unable to find the BP Site ID number</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0632">
+			<value>Unable to find the BP Site Id</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0633">
+			<value>No matching sales organization found</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0634">
+			<value>No matching user found with role Create Approve or Proposal Approver</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE0635">
+			<value>User should be in group and proposal should not be locked or it should be created by the logged in user.</value>
+		</message>
+		<message id="DE0636">
+			<value>No proposal found for the given contract number</value>
+		</message>
+		<message id="DE0637">
+			<value>This overlay contract has related draft EASII proposal or contract, which must be closed first to do any contract administration activity</value>
+		</message>
+		<message id="DE0638">
+			<value>Operation cannot be performed as the license is already amended</value>
+		</message>
+		
+		<message id="DE0639">
+			<value>External contract number must be provided for the selected sales organization before registration.</value>
+		</message>
+		
+		<message id="DE0801">
+			<value>Error occurred during processing of your request. Please contact system administrator</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="DE0060">
+			<value>External contract number must be provided for the selected sales organization.</value>
+			<inputFields>
+				<fieldName>salesOrganization</fieldName>
+				<fieldName>externalContractNumber</fieldName>
+			</inputFields>
+		</message>
+		
+		<!--  Start Added by Sasi R Challa -->
+		<message id="DE1000">
+			<value>Record not found for the search criteria</value>
+			<inputFields>
+				<fieldName>customerNumber</fieldName>
+				<fieldName>enterpriseNumber</fieldName>
+				<fieldName>formNumber</fieldName>
+				<fieldName>agreementNumber</fieldName>
+			    <fieldName>imageReferenceNumber</fieldName>
+				<fieldName>customerName</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE1001">
+			<value>Agreement Status should be in Active Status</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1002">
+			<value>Inactivated agreement cannot be Amended</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1003">
+			<value>User should have Create/Update role to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1004">
+			<value>User should provide Agreement number to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1005">
+			<value>User should select form number to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1006">
+			<value>User should select Coverage Type to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1007">
+			<value>User should provide Customer Representative role to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1008">
+				<value>Base Agreements are allowed only for sales organization USA or CANADA.</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="DE1009">
+			<value>Please enter Customer number or Enterprise number.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1010">
+			<value>Please enter Customer name along with Customer number . It cannot be blank</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="DE1012">
+			<value>Agreement with same Customer number with form number is active in the system.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="DE1013">
+			<value>Agreement Status should be in inActive Status</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="DE1014">
+			<value>For extended contracts the contract end date month and contract period ending month must be same</value>
+			<inputFields>contractPeriodEnding</inputFields>
+		</message>
+		
+		<message id="DE1015">
+			<value>Contract period duration must be one year</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="DE1016">
+			<value>Contract period duration must be less than or equal to five years</value>
+			<inputFields></inputFields>
+		</message>
+				 	
+		<!-- end -->
+
+		<!-- CR6153 start -->
+		<message id="DE1017">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount for year 1.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1018">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount for year 2.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1019">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount for year 3.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1020">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount for year 4.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="DE1021">
+			<value>S&amp;S anniversary amount is not equal to S&amp;S discount amount for year 5.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<!-- CR6153 end -->
+
+	</messageType>
+
+
+	<messageType type="Connector">
+		<message id="C0001">
+			<value>Validate user process failed. Please contact your system administrator</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="C0002">
+			<value>Invalid application user-id / password</value>
+			<inputFields>userId</inputFields>
+			<inputFields>password</inputFields>
+		</message>
+		<message id="C0003">
+			<value>Unable to get user profile.</value>
+		</message>
+		<message id="C0004">
+			<value>Unable to connect to Unified Directory.</value>
+		</message>
+		<message id="C0005">
+			<value>There is no ServiceProxy available.</value>
+		</message>
+	</messageType>
+
+	<messageType type="Service">
+		<message id="SE0020">
+			<value>The amendment effective date should be lesser than last billing period date.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0021">
+			<value>The amendment effective date should be in the current contract period.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0003">
+			<value>The proposal is not shared. Invalid action on the selected proposal.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0004">
+			<value>S&amp;S licenses are not present in the proposal. Please update S&amp;S anniversary contract amount to zero or create a new proposal selecting the right proposal content.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0005">
+			<value>Total of discounted prices is different than S&amp;S anniversary contract amount - Please adjust the difference entering the correct price at item level</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0006">
+			<value>Site Id not available to add customers</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0007">
+			<value>Inventory details not available for this proposal. Please select proposal maintenance and change proposal details</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0008">
+			<value>No SWOs are available to distribute MLC anniversary contract amount</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0009">
+			<value>No SWOs are available for this proposal.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0010">
+			<value>Calculated price of excluded SWO's is greater than MLC anniversary contract amount.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0011">
+			<value>Verify the Partner Function and make sure that Payer and Bill To Party is updated with IGF Customer Number</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0012">
+			<value>Change in external contract number is requested.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0013">
+			<value>Contract closure is in progress for the last variance.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0016">
+			<value>All licenses are not billable. Hence MLC Anniversary contract amount is not distributed proportionately..</value>
+			<inputFields></inputFields>
+		</message>
+
+
+
+		<message id="SE0018">
+			<value>Proposal name already exists.</value>
+			<inputFields>
+				<fieldName>proposalName</fieldName>
+			</inputFields>
+		</message>
+		<message id="SE0026">
+			<value>No proposals for this user.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0030">
+			<value>No contracts for this user.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0017">
+			<value>Invalid combination of sales organization, sales distribution channel and sales division.</value>
+			<inputFields>
+				<fieldName>salesOrganization</fieldName>
+				<fieldName>distributionChannel</fieldName>
+				<fieldName>division</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="SE0029">
+			<value>No licenses are available with duplicate swo number and serial number.</value>
+		</message>
+		
+		<message id="SE0019">
+			<value>This functionality is not allowed for proposals with more than ?1 licenses. Kindly use download option from reports</value>
+			<inputFields> </inputFields>
+			<inputValueCount>1</inputValueCount>
+		</message>
+
+		<message id="SE0031">
+			<value>No proposals and contracts waiting for approval for this user.</value>
+		</message>
+
+		<message id="SE0032">
+			<value>Pricing cannot be performed, please check the plan start/plan end dates of the licenses.</value>
+		</message>
+		<message id="SE0033">
+			<value>Advance field is unchecked for proposal content MLC and S&amp;S. Only MLC licenses will be billed in arrears</value>
+		</message>
+		<message id="SE0034">
+			<value>Cannot copy EASII Proposal.</value>
+		</message>
+
+		<message id="SE0035">
+			<value>Cannot copy EASII Contract.</value>
+		</message>
+
+		<message id="SE0036">
+			<value>Replacement via create proposal option is not allowed for EAS II type of proposal</value>
+		</message>
+
+		<message id="SE0014">
+			<value>This functionality is not supported for S&amp;S products.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0015">
+			<value>This functionality is not supported for S&amp;S products.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0038">
+			<value>The user has some proposals associated with the following groups ?1.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0039">
+			<value>Replacement/Renewal of original contract ?1 is in progress. Please check proposal maintenance screen for new proposal.</value>
+		</message>
+		
+		<message id="SE0101">
+			<value>Date range is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0102">
+			<value>Fetch inventory is not allowed for selected proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0103">
+			<value>Fetch planned inventory is not allowed for selected proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0104">
+			<value>Fetch ineligible inventory is not allowed for selected proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0105">
+			<value>Inventory is not available</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0106">
+			<value>Quotes not available</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0107">
+			<value>No ineligible licenses available</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0108">
+			<value>Delta-fetch is not allowed for selected contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0109">
+			<value>Edit customer selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0110">
+			<value>Edit DM selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0111">
+			<value>Edit SWO selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0112">
+			<value>Insufficient authority to delete the inventory</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0113">
+			<value>Alternate price cannot be allowed for selected SWO</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0114">
+			<value>DM number is not valid for selected sold to party</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0115">
+			<value>Invalid amendment date for the selected SWO</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0116">
+			<value>Alternate price cann't be allowed for no charge option license</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0117">
+			<value>License is not allowed for bump</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0118">
+			<value>Copy customer selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0119">
+			<value>Copy DM selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0120">
+			<value>Copy SWO selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0121">
+			<value>Copy customer is not allowed. Proposal should have more than one customer</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0122">
+			<value>Copy DM is not allowed. Proposal should have more than one customer</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0123">
+			<value>Copy SWO is not allowed. Customer should have more than one DM</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0124">
+			<value>No quotes available for the selected proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0125">
+			<value>SVC License is not allowed for this operation</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0126">
+			<value>Bumped license can't be bumped again</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0127">
+			<value>Copy Bump DM selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0128">
+			<value>Copy Bump SWO selected date is invalid</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0129">
+			<value>Customer can't be copied as the target customer has some DMs with same DM number as in the source customer</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0130">
+			<value>The selected designated machine already exists with the customer</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0131">
+			<value>Original plan end date of DM should be one day less than the bump start date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0132">
+			<value>Original plan end date of SWO should be one day less than the bump start date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0133">
+			<value>Alternate price can't be zero for bumped licenses</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0134">
+			<value>Fetch price can't be done, DM has invalid EEs</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0135">
+			<value>Default action should be done before performing this operation</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0136">
+			<value>Copy or Select copy action should be done before performing this operation</value>
+			<inputFields></inputFields>
+		</message>
+
+
+		<message id="SE0200">
+			<value>User with this name is already registered.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0201">
+			<value>Manager to approve id cannot be blank.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0202">
+			<value>No users in this sales area.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0203">
+			<value>No groups in this sales area.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0204">
+			<value>Only US sales org allowed for CreateApprove role.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0205">
+			<value>There are some proposals approved/associated with the user. First transfer all proposals to new user and then delete user.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0206">
+			<value>Role change is not allowed.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0207">
+			<value>Sales org should be within the GEO of the primary sales org.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0208">
+			<value>At least primary sales organization and access type must be selected.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0209">
+			<value>Transfer all the proposals before changing the role of the user.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0210">
+			<value>Proposals with sales org other than US are present. Either delete them or transfer them.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0211">
+			<value>Group associated with user-id, it should be dis-associated with all the user-id.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0212">
+			<value>Group name is present.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0213">
+			<value>No proposals for this user.</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0214">
+			<value>Request has been sent and your id will be registered as soon as it is approved</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0215">
+			<value>User not present in Enterprise Directory</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0216">
+			<value>new msg</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0301">
+			<value>Selected variance proposal(s) cannot be copied.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0302">
+			<value>Selected proposal cannot be copied.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0303">
+			<value>A contract in CLOSED status should not be allowed for copy.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0304">
+			<value>Proposal type should not be EASII or AMO or ESSO for extend contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0305">
+			<value>Proposal status should be VARIANCE BILLED or CONTRACT or it should be EXTENDED and TP Proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0306">
+			<value>Requested operation cannot be performed due to insufficient access of the user on the proposal/contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0307">
+			<value>The contract should be in CONTRACT or EXTENDED or VARIANCE BILLED status for replacement</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0308">
+			<value>TP contract must be closed and new contract / proposal should be created</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0309">
+			<value>Proposal type should not be EASII for amend contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0310">
+			<value>Amend effective date should be greater than the old amend date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0311">
+			<value>Contract status should be in CONTRACT for EASII copy</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0312">
+			<value>Requested contract's TP Contract status should be in CONTRACT and Replacement date should be greater than or equal to contract end period</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0313">
+			<value>New amendment effective date should be greater than old amendment effective date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0314">
+			<value>Amendment effective date should be less than or equal to contract end period</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0315">
+			<value>Proposal type should be TP or amendment day should be first day of the month</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0316">
+			<value>Amend effective date should be greater than contract start period</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0317">
+			<value>Access type should be either READ or FULL</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0318">
+			<value>Only one user can be given full access</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0319">
+			<value>User profile is not eligible for sharing</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0320">
+			<value>Invalid inventory</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0321">
+			<value>No users belonging to the GEO exist</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0322">
+			<value>Logged in user should not be a shared user</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0323">
+			<value>User should not be a creator of the proposal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0324">
+			<value>Invalid user/password</value>
+			<inputFields>userId</inputFields>
+			<inputFields>password</inputFields>
+		</message>
+		<message id="SE0325">
+			<value>This overlay contract has related draft EASII proposal or contract (External contract no: ?1) which must be closed first to do any contract administration activity</value>
+			<inputFields></inputFields>
+			<inputValueCount>1</inputValueCount>
+		</message>
+		<message id="SE0326">
+			<value>This overlay contract has related draft EASII proposal or contract (Proposal name: ?1) which must be closed first to do any contract administration activity</value>
+			<inputFields></inputFields>
+			<inputValueCount>1</inputValueCount>
+		</message>
+		<message id="SE0327">
+			<value>Replacement date should be greater than or equal to contract start period or amendment effective date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0328">
+			<value>Replacement date should be less than or equal to contract end period</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0329">
+			<value>Renewal is allowed only for Anniversary or non-anniversary contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0330">
+			<value>Invalid proposal type or contract start/end period date or sales org for renewal</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0331">
+			<value>Invalid choice given. Valid choices would be GOTO, SEARCH or PRINT</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0332">
+			<value>Proposal type should be PRICED / DRAFT</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0333">
+			<value>Sales org is not supported by the system</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0334">
+			<value>Proposal type should not be EASII for renew contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0335">
+			<value>Proposal type should be EAS for EASII Copy</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0336">
+			<value>Proposal name doesn't exist</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0337">
+			<value>The contract should be in status CONTRACT or EXTENDED or VARIANCE BILLED for amendment</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0338">
+			<value>No users found for the given sales org</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0339">
+			<value>No create approve user is found. Either proposal approver or other user is not found</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0340">
+			<value>Contract extension date should be less than or equal to contract end period + 3 months</value>
+			<inputFields></inputFields>
+		</message>
+
+
+		<message id="SE0401">
+			<value>Approver name cannot be empty</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0402">
+			<value>User should be in a group to perform this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0403">
+			<value>Mismatch of user-id's profile</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0404">
+			<value>User does not have access to remove the sharing.</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0413">
+			<value>At least one selection should be made</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0415">
+			<value>Proposal needs to be locked to do this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0416">
+			<value>Proposal needs to be locked to do this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0417">
+			<value>All proposals need to be locked to do this action</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0418">
+			<value>Selected proposal cannot be deleted</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0419">
+			<value>Requested action cannot be performed</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0421">
+			<value>Proposal name already exist. Enter new Proposal name</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0424">
+			<value>Parsing error for error details</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0427">
+			<value>Proposal cannot be locked. Locking rule violation</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0500">
+			<value>Variance check cannot be performed for the selected contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0501">
+			<value>Variance check is not done before</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0509">
+			<value>Simulate variance cannot be performed for the selected contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0510">
+			<value>Create variance cannot be performed for the selected contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0511">
+			<value>Variance date should be between contract period start date and current date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0512">
+			<value>Request is processed</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0513">
+			<value>Variance date should be between contract period start date and contract period end date</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0601">
+			<value>This overlay contract has a related TP Contract which must be closed first using closure date prior to the closure date of the overlay contract</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0602">
+			<value>The related proposal is not in the right status to undergo revert</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0700">
+			<value>S&amp;S planning is not allowed for MLC license</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0701">
+			<value>S&amp;S planning is not allowed for no charge items</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0702">
+			<value>Proposal type should be ESSO</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0703">
+			<value>Variance check is not triggered from OPPT</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0704">
+			<value>Variance check should be done in contract maintenance</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0705">
+			<value>Selected contract is not amended</value>
+			<inputFields></inputFields>
+		</message>
+				<!-- Japan Changes/ 11 digit changes -->
+	
+		<message id="SE0706">
+			<value>Anniversary invoice amount is greater than 999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0707">
+			<value>Alternate amount should be in the range of 0 to 999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0708">
+			<value>Total S&amp;S discounted amount is greater than 999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0709">
+			<value>For Japan and Korea alternate amount should not have decimals.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0713">
+			<value>For Vietnam alternate amount should not have decimals.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		
+		<message id="SE0710">
+			<value>Total S&amp;S discounted amount is greater than 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+						
+		<message id="SE0711">
+			<value>Anniversary invoice amount is greater than 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+						
+		<message id="SE0712">
+			<value>Alternate amount should be in the range of 0 to 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0715">
+			<value>Total S&amp;S discounted amount is greater than 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+						
+		<message id="SE0716">
+			<value>Anniversary invoice amount is greater than 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		
+		
+		
+		
+		<message id="SE0714">
+			<value>Alternate amount should be in the range of 0 to 99,999,999,999.</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0801">
+			<value>Error occurred during processing of your request. Please contact system administrator</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0802">
+            <value>Mail service is not available. Please contact the system administrator</value>
+            <inputFields></inputFields>
+		</message>
+		
+		<message id="SE0804">
+			<value>Transfer of proposals is not allowed for selected user. The user dose not have access to following groups Group1, Group2</value>
+			<inputFields></inputFields>
+		</message>
+		
+		<message id="SE0805">
+			<value>The base agreement for ?1 has been registered successfully</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="SE0806">
+			<value>The base agreement for ?1 has been amended successfully</value>
+			<inputFields></inputFields>
+		</message>
+
+		<message id="SE0807">
+			<value>No matching base agreement found for your input.</value>
+			<inputFields>salesOrganization</inputFields>
+    		<inputFields>agreementNumber</inputFields>
+			<inputFields>enterpriseNumber</inputFields>
+			<inputFields>customerNumber</inputFields>
+			<inputFields>iNACNumber</inputFields>
+		</message>
+
+		<message id="SE0809">
+			<value>Total of discounted prices is different than S&amp;S anniversary contract amount for year ?1- Please adjust the difference entering the correct price at item level</value>
+			<inputFields></inputFields>
+			<inputValueCount>1</inputValueCount>
+		</message>
+				<!--  IGF  start-->
+		<message id="SE0810">
+			<value>Please select customer class other than 33 or 35</value>
+			<inputFields></inputFields>
+		</message>
+		<!--  IGF  end-->
+		
+	</messageType>
+
+	<messageType type="Presentation">
+		<message id="PA00">
+			<value>System is not able to process the request currently. Please try again. If still persists, contact system administrator.</value>
+		</message>
+		<message id="PA01">
+			<value>User has no access</value>
+		</message>
+		<message id="PA02">
+			<value>Usage of back button is not allowed</value>
+		</message>
+		<message id="PA03">
+			<value>Any other option among the STP, BTP, payer and SHTP should be selected.</value>
+		</message>
+		<message id="PA04">
+			<value>Select valid sold to party Site ID number.</value>
+		</message>
+		<message id="PA04">
+			<value>Select valid sold to party Site ID number.</value>
+			<inputFields>
+				<fieldName>soldToPartyNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA05">
+			<value>Select valid sold to party name.</value>
+			<inputFields>
+				<fieldName>soldToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA06">
+			<value>Select valid sold to party Site ID number and name combination.</value>
+			<inputFields>
+				<fieldName>soldToPartyNumber</fieldName>
+				<fieldName>soldToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA07">
+			<value>Select valid bill to party Site ID number.</value>
+			<inputFields>
+				<fieldName>billToPartyNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA08">
+			<value>Select valid bill to party name.</value>
+			<inputFields>
+				<fieldName>billToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA09">
+			<value>Select valid bill to party Site ID number and name combination.</value>
+			<inputFields>
+				<fieldName>billToPartyNumber</fieldName>
+				<fieldName>billToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA10">
+			<value>Select valid payer Site ID number.</value>
+			<inputFields>
+				<fieldName>payerNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA11">
+			<value>Select valid payer name.</value>
+			<inputFields>
+				<fieldName>payerName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA12">
+			<value>Select valid payer Site ID number and name combination.</value>
+			<inputFields>
+				<fieldName>payerNumber</fieldName>
+				<fieldName>payerName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA13">
+			<value>Select valid ship to party Site ID number.</value>
+			<inputFields>
+				<fieldName>shipToPartyNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA14">
+			<value>Select valid ship to party name.</value>
+			<inputFields>
+				<fieldName>shipToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA15">
+			<value>Select valid ship to party Site ID number and name combination.</value>
+			<inputFields>
+				<fieldName>shipToPartyNumber</fieldName>
+				<fieldName>shipToPartyName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA16">
+			<value>Selected customer already exists in the partner collection.</value>
+			<inputFields>
+				<fieldName>Site ID Number</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA17">
+			<value>At least one selection should be made.</value>
+			<inputFields>
+				<fieldName>required</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA18">
+			<value>Delete the selected records?</value>
+		</message>
+		<message id="PA19">
+			<value>More than one selection is made.</value>
+		</message>
+		<message id="PA20">
+			<value>No error details for the selected error message.</value>
+		</message>
+		<message id="PA21">
+			<value>Are you sure?</value>
+		</message>
+		<message id="PA22">
+			<value>This operation is not allowed at Sold to party level.</value>
+		</message>
+		<message id="PA23">
+			<value>This operation is not allowed at SWOEE level.</value>
+		</message>
+		<message id="PA24">
+			<value>This operation is not allowed at SWO level.</value>
+		</message>
+		<message id="PA25">
+			<value>Do you want to cancel DM planning activities?</value>
+		</message>
+		<message id="PA26">
+			<value>No proposal available for selecting header details.</value>
+		</message>
+		<message id="PA27">
+			<value>Invalid sales area and currency code combination.</value>
+			<inputFields>
+				<fieldName>salesOrganization</fieldName>
+				<fieldName>currencyCode</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA28">
+			<value>Exclude is not allowed when only one SWO is present.</value>
+		</message>
+		<message id="PA29">
+			<value>Your request is getting processed. Check the output after sometime.</value>
+		</message>
+		<message id="PA30">
+			<value>Please enter valid alternate price.</value>
+			<inputFields>
+				<fieldName>alternatePrice</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA31">
+			<value>No inventory is fetched for the proposal.</value>
+		</message>
+		<message id="PA32">
+			<value>User "?1" with Manager role is not allowed to access OPPT. The only functionality for this user is to approve the user registration request.</value>
+			<inputFields></inputFields>
+			<inputValueCount>1</inputValueCount>
+		</message>
+		<message id="PA33">
+			<value>After changing primary sales org click on the GO button next to the primary sales org</value>
+		</message>
+		<message id="PA34">
+			<value>Usage of browser back button was detected. Unable to create the current view content. Use any of the left navigation links to proceed.</value>
+		</message>
+		<message id="PA35">
+			<value>Operation is not supported for an MLC license</value>
+		</message>
+		<message id="PA36">
+			<value>Operation cannot be performed. Payer information needs to be updated first.</value>
+		</message>
+		<message id="PA37">
+			<value>Operation cannot be performed. Click on Alternate partner button to validate the payer information.</value>
+		</message>
+		<message id="PA38">
+			<value>9E partner is not validated. Click on Alternate partner button to validate 9E partner information.</value>
+		</message>
+		<message id="PA39">
+			<value>Invalid session data. Unable to get the current proposal.</value>
+		</message>
+		<message id="PA40">
+			<value>Invalid data retrieved. Partner information is null.</value>
+		</message>
+		<message id="PA41">
+			<value>At a time, one user should hold only one access.</value>
+		</message>
+		<message id="PA42">
+			<value>Invalid session data. Unable to get the sharing information from the session.</value>
+		</message>
+		<message id="PA43">
+			<value>Change in the proposal header information is requested.</value>
+		</message>
+		<message id="PA44">
+			<value>Invalid session data. Unable to get the current view and forward content.</value>
+		</message>
+		<message id="PA45">
+			<value>Invalid session data. Unable to get the first action forward name.</value>
+		</message>
+		<message id="PA46">
+			<value>Invalid session data. Unable to get proposal data for change proposal.</value>
+		</message>
+		<message id="PA47">
+			<value>Invalid session data. Unable to get proposal header information.</value>
+		</message>
+		<message id="PA48">
+			<value>Request submission is not sent to the server fully by your browser. Please try again.</value>
+		</message>
+		<message id="PA49">
+			<value>System is not stable. Please try after some time.</value>
+		</message>
+		<message id="PA50">
+			<value>Both MLC and S&amp;S items together cannot be selected for Edit operation.</value>
+		</message>
+		<message id="PA51">
+			<value>At least one inventory item needs to be selected for editing the inventory.</value>
+		</message>
+		
+		<message id="PA52">
+			<value>After changing Role click on the GO button next to the Role.</value>
+		</message>
+		<message id="PA53">
+			<value>Record not found for the search criteria.</value>
+			<inputFields>
+				<fieldName>cmrNumber</fieldName>
+				<fieldName>enterpriseNumber</fieldName>
+				<fieldName>countryCode</fieldName>
+			</inputFields>
+		</message>
+		<message id="PA54">
+			<value>This operation is not allowed for extended period contract.</value>
+		</message>
+		
+		<message id="PAF01">
+			<value>Please select sales organization. It cannot be blank.</value>
+			<inputFields>
+				<fieldName>salesOrganization</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF02">
+			<value>Please select distribution channel. It cannot be blank.</value>
+			<inputFields>
+				<fieldName>distributionChannel</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF03">
+			<value>Please select division. It cannot be blank.</value>
+			<inputFields>
+				<fieldName>divisions</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF04">
+			<value>Please select currency. It cannot be blank.</value>
+			<inputFields>
+				<fieldName>currencyCode</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF05">
+			<value>Please enter proposal name. It cannot be blank.</value>
+			<inputFields>
+				<fieldName>proposalName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF06">
+			<value>Please select a proposal type.</value>
+			<inputFields>
+				<fieldName>proposalType</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF07">
+			<value>Please enter external contract number.</value>
+			<inputFields>
+				<fieldName>externalContractNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF08">
+			<value>Please enter proper external contract number. It cannot be more than 10 digits.</value>
+			<inputFields>
+				<fieldName>externalContractNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF09">
+			<value>Please select contract start date.</value>
+			<inputFields>
+				<fieldName>contractStartDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF10">
+			<value>Please select contract end date.</value>
+			<inputFields>
+				<fieldName>contractEndDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF11">
+			<value>Please select contract period beginning date.</value>
+			<inputFields>
+				<fieldName>contractPeriodBeginning</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF12">
+			<value>Please select contract period ending date.</value>
+			<inputFields>
+				<fieldName>contractPeriodEnding</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF13">
+			<value>Please select billing frequency. It cannot be empty.</value>
+			<inputFields>
+				<fieldName>billingFrequency</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF16">
+			<value>Anniversary contract amount must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF18">
+			<value>Tvm rate must be between 0 and 50.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF20">
+			<value>Free text for invoice must not exceed 6000 characters.</value>
+			<inputFields>
+				<fieldName>freeTextForInvoicePrint</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF21">
+			<value>Cap amount must not exceed 999,999,999.99.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF22">
+			<value>Cap plus must not exceed 999,999,999.99.</value>
+			<inputFields>
+				<fieldName>capPlus</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF23">
+			<value>Cap minus must not exceed 999,999,999.99.</value>
+			<inputFields>
+				<fieldName>capMinus</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF24">
+			<value>PO number must not exceed 35 characters.</value>
+			<inputFields>
+				<fieldName>poNumber</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF25">
+			<value>Add value days must be between 0 and 99.</value>
+			<inputFields>
+				<fieldName>addValueDays</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF26">
+			<value>At least one customer must be selected.</value>
+		</message>
+
+		<message id="PAF27">
+			<value>At least one sold to party should be selected.</value>
+		</message>
+
+		<message id="PAF28">
+			<value>Site ID number cannot be empty.</value>
+		</message>
+
+		<message id="PAF29">
+			<value>Sequence number cannot be empty.</value>
+		</message>
+
+		<message id="PAF30">
+			<value>At least one customer should be selected to fetch inventory into proposal.</value>
+		</message>
+
+		<message id="PAF31">
+			<value>Search string not entered.</value>
+		</message>
+		<message id="PAF32">
+			<value>Page number not entered.</value>
+		</message>
+		<message id="PAF33">
+			<value>Page number entered is not valid.</value>
+		</message>
+
+		<message id="PAF34">
+			<value>IBM id cannot be empty .</value>
+			<inputFields>
+				<fieldName>userId</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF35">
+			<value>Password cannot be empty.</value>
+			<inputFields>
+				<fieldName>password</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF36">
+			<value>Group name cannot be empty.</value>
+		</message>
+		<message id="PAF37">
+			<value>Sales area cannot be empty.</value>
+		</message>
+
+		<message id="PAF38">
+			<value>Specified page doesn't exist for the proposal.</value>
+		</message>
+		<message id="PAF39">
+			<value>New proposal name cannot be blank.</value>
+		</message>
+		<message id="PAF40">
+			<value>Invalid "From date".</value>
+		</message>
+		<message id="PAF41">
+			<value>Invalid "To date".</value>
+		</message>
+		<message id="PAF42">
+			<value>"From date" cannot be greater than "To date".</value>
+		</message>
+		<message id="PAF43">
+			<value>User not selected.</value>
+		</message>
+		<message id="PAF44">
+			<value>User Id not selected</value>
+			<inputFields>
+				<fieldName>userid</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF45">
+			<value>Role not selected.</value>
+			<inputFields>
+				<fieldName>roledesc</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF46">
+			<value>Sales area not selected.</value>
+			<inputFields>
+				<fieldName>sales</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF47">
+			<value>Sales org with " * " must be selected.</value>
+			<inputFields>
+				<fieldName>salesOrg</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF48">
+			<value>Access type with " * " must be selected.</value>
+		</message>
+		<message id="PAF49">
+			<value>For every selected sales org, corresponding access type should also be selected.</value>
+		</message>
+		<message id="PAF50">
+			<value>Manager not selected.</value>
+			<inputFields>
+				<fieldName>managerId</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF51">
+			<value>No record selected.</value>
+		</message>
+		<message id="PAF52">
+			<value>Please select one record.</value>
+		</message>
+		<message id="PAF53">
+			<value>Replacement date should be greater than or equal to contract period start date.</value>
+		</message>
+		<message id="PAF54">
+			<value>Contract replacement date should be less than or equal to contract period end date + 1 day.</value>
+		</message>
+		<message id="PAF55">
+			<value>Site Id numbers cannot be empty.</value>
+		</message>
+		<message id="PAF56">
+			<value>Site ID customer numbers cannot be empty.</value>
+		</message>
+		<message id="PAF57">
+			<value>For every Site ID number there should be a sequence number and vice-versa.</value>
+		</message>
+		<message id="PAF58">
+			<value>No target users for the selected user.</value>
+		</message>
+		<message id="PAF59">
+			<value>No target sold to party is selected for copying inventory.</value>
+			<inputFields>
+				<fieldName>targetSoldToPartyNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF60">
+			<value>Please enter designated machine number.</value>
+			<inputFields>
+				<fieldName>dmNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF61">
+			<value>Please select date.</value>
+		</message>
+		<message id="PAF62">
+			<value>Please select amendment effective date.</value>
+		</message>
+		<message id="PAF63">
+			<value>Please select valid amendment effective date.</value>
+			<inputFields>
+				<fieldName>amendmentEffectiveDateYear</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF64">
+			<value>Please select valid date.</value>
+		</message>
+		<message id="PAF65">
+			<value>Please select approver.</value>
+		</message>
+		<message id="PAF66">
+			<value>Invalid login. Please try again</value>
+			<inputFields>
+				<fieldName>userId</fieldName>
+				<fieldName>password</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF67">
+			<value>Operation not allowed for selected record</value>
+		</message>
+		<message id="PAF68">
+			<value>Planned growth value must be numeric and only 2 decimals allowed.</value>
+			<inputFields>
+				<fieldName>plannedGrowth</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF69">
+			<value>Growth limit value must be numeric and only 2 decimals allowed.</value>
+			<inputFields>
+				<fieldName>growthLimit</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF70">
+			<value>Tvm rate must be numeric and only 2 decimals allowed.</value>
+			<inputFields>
+				<fieldName>tvmRate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF71">
+			<value>PAKID must be alphanumeric.</value>
+			<inputFields>
+				<fieldName>pakid</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF72">
+			<value>Please select designated machine.</value>
+			<inputFields>
+				<fieldName>dmNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF73">
+			<value>Please select designated machine.</value>
+			<inputFields>
+				<fieldName>dmNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF74">
+			<value>Please select valid designated machine number and description.</value>
+			<inputFields>
+				<fieldName>dmNumber</fieldName>
+				<fieldName>dmDescription</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF75">
+			<value>Proposal name must be alphanumeric.</value>
+			<inputFields>
+				<fieldName>proposalName</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF76">
+			<value>No proposal selected.</value>
+			<inputFields>
+				<fieldName>proposalName</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF77">
+			<value>No report type selected.</value>
+			<inputFields>
+				<fieldName>reportType</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF78">
+			<value>Please select a valid EE.</value>
+		</message>
+		<message id="PAF79">
+			<value>Please enter valid discount percent value.</value>
+		</message>
+		<message id="PAF80">
+			<value>Discount percent should be less than 100 percent</value>
+		</message>
+		<message id="PAF81">
+			<value>Discount percent can have a maximum of 2 digits after decimal</value>
+		</message>
+		<message id="PAF82">
+			<value>Customer selection not allowed. Please select only DM or SWO.</value>
+		</message>
+		<message id="PAF83">
+			<value>Selection made is not valid for the operation.</value>
+		</message>
+		<message id="PAF84">
+			<value>Please provide valid MLC anniversary contract amount .</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF85">
+			<value>Please provide valid S&amp;S anniversary contract amount .</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF86">
+			<value>Inventory for STP should always be selected.</value>
+		</message>
+		<message id="PAF87">
+			<value>Select other option and enter planned growth value.</value>
+			<inputFields>
+				<fieldName>plannedGrowth</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF88">
+			<value>Select other option and enter growth limit value.</value>
+			<inputFields>
+				<fieldName>growthLimit</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF89">
+			<value>Invalid cap amount value.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF90">
+			<value>Invalid cap plus value.</value>
+			<inputFields>
+				<fieldName>capPlus</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF91">
+			<value>Invalid cap minus value.</value>
+			<inputFields>
+				<fieldName>capMinus</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF92">
+			<value>Invalid IGF offer number.</value>
+			<inputFields>
+				<fieldName>igfOfferNumber</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF93">
+			<value>S&amp;S anniversary contract amount must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF94">
+			<value>At least one user should be selected for removing share on the proposal.</value>
+		</message>
+		<message id="PAF95">
+			<value>If Create Approve user is selected then no other selection should be made.</value>
+		</message>
+		<message id="PAF96">
+			<value>If Approver role user is selected then one user from CSO/ Marketing Representative role should also be selected and vice-versa.</value>
+		</message>
+		<message id="PAF97">
+			<value>Proposal content not selected.</value>
+		</message>
+		<message id="PAF98">
+			<value>Selected contract is not amended</value>
+		</message>
+		<message id="PAF99">
+			<value>Duplicate Sales org. selected.</value>
+		</message>
+		<message id="PAF100">
+			<value>Original plan end date cannot be empty. Please select valid date.</value>
+			<inputFields>
+				<fieldName>originalPlanEndDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF101">
+			<value>Bump plan start date cannot be empty. Please select valid date.</value>
+			<inputFields>
+				<fieldName>bumpPlanStartDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF102">
+			<value>Bump plan end date cannot be empty. Please select valid date.</value>
+			<inputFields>
+				<fieldName>bumpPlanEndDate</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF103">
+			<value>Exceeding amount value must be numeric.</value>
+			<inputFields>
+				<fieldName>exceedingAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF104">
+			<value>Please enter valid alternate price value.</value>
+		</message>
+		<message id="PAF105">
+			<value>Exceeding amount cannot be zero or empty.</value>
+			<inputFields>
+				<fieldName>exceedingAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF106">
+			<value>Invalid alternate price. Alternate price cannot be negative.</value>
+			<inputFields>
+				<fieldName>alternatePrice</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF107">
+			<value>Invalid discount percent. Discount percent cannot be negative.</value>
+		</message>
+		<!-- CR4520 -->
+		<message id="PAF108">
+			<value>No sales org selected.</value>
+			<inputFields>
+				<fieldName>salesOrg</fieldName>
+			</inputFields>
+		</message>
+			<message id="PAF109">
+			<value>Duplicate group selected.</value>
+		</message>
+
+		<!-- BA user type Starts -->
+		<message id="PAF110">
+			<value>User Type not selected.</value>
+			<inputFields>
+				<fieldName>usertype</fieldName>
+			</inputFields>
+		</message>
+		<!-- BA user type Ends -->
+		
+		<message id = "PAF111" >
+		<value> Transfer of proposals is not allowed for selected user. The user dose not have access to following groups Group1, Group2 </value>
+		</message>
+		
+		<message id="PAF112">
+				<value>Base Agreement user type allowed only for sales organization USA or CANADA.</value>
+			<inputFields>
+				<fieldName>sales</fieldName>
+			</inputFields>
+		</message>
+		
+				<!-- FOR JAPAN -->
+				
+		<message id="PAF113">
+			<value>For Japan and Korea anniversary contract amount must be between 0 and 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF114">
+			<value>For Japan and Korea S&amp;S anniversary contract amount must be between 0 and 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF115">
+			<value>For Japan and Korea cap amount must not exceed 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>		
+
+		<message id="PAF116">
+			<value>For Japan and Korea anniversary contract amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF117">
+			<value>For Japan and Korea S&amp;S anniversary contract amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF118">
+			<value>For Japan and Korea cap amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF119">
+			<value>For Japan and Korea cap plus must not have decimals.</value>
+			<inputFields>
+				<fieldName>capPlus</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF120">
+			<value>For Japan and Korea cap minus must not have decimals.</value>
+			<inputFields>
+				<fieldName>capPlus</fieldName>
+			</inputFields>		
+		</message>
+		
+		<message id="PAF121">
+			<value>For Vietnam anniversary contract amount must be between 0 and 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF122">
+			<value>For Vietnam S&amp;S anniversary contract amount must be between 0 and 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF123">
+			<value>For Vietnam cap amount must not exceed 99,999,999,999.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>		
+
+		<message id="PAF124">
+			<value>For Vietnam anniversary contract amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>anniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF125">
+			<value>For Vietnam S&amp;S anniversary contract amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>ssAnniversaryContractAmount</fieldName>
+			</inputFields>
+		</message>		
+		<message id="PAF126">
+			<value>For Vietnam cap amount must not have decimals.</value>
+			<inputFields>
+				<fieldName>capAmount</fieldName>
+			</inputFields>
+		</message>		
+		
+		<!--  added for contract registration project by Ravi Yandapalli -->
+    
+		<message id = "PAF200" >
+		<value> Please enter Customer number. It cannot be blank </value>
+		<inputFields>
+			<fieldName>customerNumber</fieldName>
+    	</inputFields>
+		</message>
+		<message id = "PAF201" >
+		<value> Please enter Customer name. It cannot be blank</value>
+		<inputFields>
+			<fieldName>customerName</fieldName>
+		</inputFields>
+		</message>
+		
+		<message id = "PAF202" >
+		<value>Please enter Enterprise number. It cannot be blank</value>
+		<inputFields>
+		  <fieldName>enterpriseNumber</fieldName>
+	    </inputFields>
+		</message>
+		
+		<message id = "PAF203" >
+		<value> Please enter Customer Representative. It cannot be blank</value>
+		<inputFields>
+			<fieldName>customerRepresentive</fieldName>
+		</inputFields>
+		</message>
+		
+		<message id = "PAF204" >
+		<value> Please select Form Number. It cannot be blank </value>
+		<inputFields>
+		  <fieldName>formNumber</fieldName>
+	    </inputFields>	
+		</message>
+		
+		<message id = "PAF205" >
+		<value>  Please enter Agreement number. It cannot be blank </value>
+		<inputFields>
+		  <fieldName>agreementNumber</fieldName>
+	    </inputFields>	
+		</message>
+		
+		<message id = "PAF206" >
+		<value> Please select Accepted date. It cannot be blank</value>
+		<inputFields>
+		  <fieldName>acceptedDate</fieldName>
+	    </inputFields>			
+		</message>
+		
+		<message id = "PAF207" >
+		<value> Please enter proposal name. It cannot be blank </value>
+		</message>
+		
+		<message id = "PAF208" >
+		<value> Please enter Image reference number. It cannot be blank</value>
+		<inputFields>
+		  <fieldName>imageReferenceNumber</fieldName>
+	    </inputFields>			
+		</message>
+		
+		<message id = "PAF209" >
+		<value> Please enter Details. It cannot be blank </value>
+		<inputFields>
+       <fieldName>details</fieldName>	           
+	        </inputFields>	
+		</message>
+		
+		<message id = "PAF210" >
+		<value> Please enter at least one field for search </value>
+		<inputFields>
+   			<fieldName>customerNumber</fieldName>
+   			<fieldName>enterpriseNumber</fieldName>
+   			<fieldName>formNumber</fieldName>
+   			<fieldName>agreementNumber</fieldName>
+   			<fieldName>imageReferenceNumber</fieldName>
+   			<fieldName>iNACNumber</fieldName>
+   			<fieldName>customerSite IDNumber</fieldName>
+            <fieldName>customerName</fieldName>
+ 		 </inputFields>
+		</message>
+		
+		<message id = "PAF211" >
+		<value> Please enter Enterprise name. It cannot be blank </value>
+		</message>
+		<message id = "PAF212" >
+			<value>Please select at least one Base Agreement </value>
+		</message>
+				
+		<message id = "PAF214" >
+			<value>Please enter Customer name along with Customer number . It cannot be blank </value>
+			<inputFields>
+			  <fieldName>customerNumber</fieldName>
+			  <fieldName>customerName</fieldName>
+	       </inputFields>			
+		</message>
+		<message id = "PAF216" >
+		<value> Please select Coverage type. It cannot be blank</value>
+		<inputFields>
+		  <fieldName>coverageType</fieldName>
+	    </inputFields>		
+		</message>
+		<message id = "PAF217" >
+			<value>Invalid Accepted date </value>
+		</message>
+		<message id = "PAF218" >
+			<value>Invalid ROL start date </value>
+		</message>
+       <message id = "PAF219" >
+		<value> Please enter ROL start date. It cannot be blank</value>
+		<inputFields>
+		  <fieldName>rolStartDate</fieldName>
+	    </inputFields>		
+		</message>
+		<message id = "PAF220" >
+			<value>Please select ROL transfer event. It cannot be blank </value>
+			<inputFields>
+		  <fieldName>rolOptions</fieldName>
+	    </inputFields>	
+		</message>
+		<message id = "PAF221" >
+			<value>Invalid ROL end date  </value>
+		</message>
+		<message id = "PAF222" >
+			<value>Please select Sales Org. It cannot be blank </value>
+				<inputFields>
+		  <fieldName>salesOrg</fieldName>
+	    </inputFields>	
+		</message>
+		<message id = "PAF223" >
+			<value>Customer number must be numeric value  </value>
+			<inputFields>
+		  <fieldName>customerNumber</fieldName>
+	    </inputFields>	
+		</message>
+		<message id = "PAF224" >
+			<value>Enterprise number must be numeric value  </value>
+			<inputFields>
+		  <fieldName>enterpriseNumber</fieldName>
+	    </inputFields>	
+		</message>
+		<message id = "PAF225" >
+			<value>File number must be numeric value  </value>
+		<inputFields>
+		  <fieldName>fileNo</fieldName>
+	    </inputFields>
+		</message>
+		<message id = "PAF226" >
+			<value>Image reference number must be numeric value  </value>
+			<inputFields>
+		  <fieldName>imageReferenceNumber</fieldName>
+	    </inputFields>	
+		</message>
+		
+		<message id = "PAF227" >
+			<value>Please enter C&amp;N/Legal Contact. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>legalContact</fieldName>
+	    </inputFields>
+		</message>
+		 <message id="PAF228">
+			<value>Agreement Status should be in Active Status</value>
+			<inputFields></inputFields>
+		</message>
+		<message id = "PAF229" >
+			<value>Please enter Accounting Contact. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>accountingContact</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF230" >
+			<value>Please enter Form number. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>formNumber</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF231" >
+			<value>Please enter Form long description. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>formLongDescription</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF232" >
+			<value>Please enter Form short description. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>formShortDescription</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF233" >
+			<value>Please enter Language. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>language</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF234" >
+			<value>Please select the form which is to be edited. </value>
+		</message>
+		<message id = "PAF235" >
+			<value>Please enter Version. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>formVersion</fieldName>
+	    </inputFields>
+	    </message>
+	    
+	    <message id = "PAF236" >
+			<value>Please select at least one Modification Type. </value>
+		</message>
+		<message id = "PAF237" >
+			<value>Please enter Modification Type . It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>typeCode</fieldName>
+	    </inputFields>
+	    </message>
+		<message id = "PAF238" >
+			<value>Please enter Modification Description. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>description</fieldName>
+	    </inputFields>
+	    </message>
+	     <message id = "PAF239" >
+			<value>Please select at least one Modification Option. </value>
+		</message>
+         <message id = "PAF240" >
+			<value>Please enter Modification Option. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>modificationOption</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF241" >
+			<value>Please enter Modification Option Description. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>modificationDescription</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF242" >
+			<value>It allows only three characters</value>
+		<inputFields>
+		  <fieldName>modificationDescription</fieldName>
+	    </inputFields>
+	    </message>
+	    <message id = "PAF243" >
+			<value>Please enter Modification Option Description. It cannot be blank  </value>
+		<inputFields>
+		  <fieldName>modificationDescription</fieldName>
+	    </inputFields>
+	    </message>
+	    	<message id = "PAF244" >
+		<value> Please enter at least one optional field</value>
+		<inputFields>
+   			<fieldName>enterpriseNumber</fieldName>
+   			<fieldName>iNACNumber</fieldName>
+   			<fieldName>customerNumber</fieldName>
+    	 </inputFields>
+		</message>
+		<message id="PAF245">
+			<value>Agreement Status should be in InActive Status</value>
+			<inputFields></inputFields>
+		</message>
+		<message id="PAF246">
+			<value>Please select status. It cannot be blank </value>
+					<inputFields>
+		  <fieldName>status</fieldName>
+	    </inputFields>	
+		</message>
+			<message id="PAF247">
+			<value>Please select at least one Form number from the list or enter a Form number manually. </value>
+					<inputFields>
+		  <fieldName>formNumber</fieldName>
+	    </inputFields>	
+		</message>
+			<message id="PAF248">
+			<value>Please select at least one Modification type or enter a Modification type manually.</value>
+					<inputFields>
+		  <fieldName>typeCode</fieldName>
+	    </inputFields>	
+		</message>
+	  
+	   <message id = "PAF249" >
+		<value>Please enter Site ID customer number. It cannot be blank</value>
+		<inputFields>
+			  <fieldName>Site IDCustomerNumber</fieldName>
+    	</inputFields>
+	   </message>
+	    
+	    <message id = "PAF250" >
+			<value>Please click Go button after changing sales organization</value>
+	    </message>
+	    
+	     <message id = "PAF251" >
+			<value>Please either enter formNumbers or select from the list</value>
+	    </message>
+	    
+        <message id = "PAF252" >
+			<value>Please either enter Modification types or select from the list</value>
+	    </message>
+	    
+        <message id = "PAF253" >
+			<value>Please select FormClass It cannot be blank </value>
+	    </message>
+
+         <message id = "PAF254" >
+			<value>Please select FormType. It cannot be blank </value>
+	    </message>
+
+         <message id = "PAF255" >
+			<value>Please enter effective date. It cannot be blank </value>
+	    </message>
+	      <message id = "PAF256" >
+			<value>Form number already exists</value>
+	    </message>
+	       <message id = "PAF257" >
+			<value>Form details not found </value>
+	    </message>
+	    <message id = "PAF258" >
+			<value>Please select at least one report type </value>
+	    </message>
+	    
+	     <message id = "PAF259" >
+			<value>Please select Sales organization. It can't be blank </value>
+			<inputFields>
+        		  <fieldName>countryCode</fieldName>
+	         </inputFields>
+	    </message>
+
+        <message id = "PAF260" >
+			<value>Please enter  either CMR number or Enterprise number</value>
+            <inputFields>
+		         <fieldName>cmrNumber</fieldName>
+		         <fieldName>enterpriseNumber</fieldName>
+    	    </inputFields>
+	    </message>
+	    
+	    <message id = "PAF261" >
+			<value>Please select at least one record</value>
+        </message>
+	 
+	    <message id = "PAF262" >
+			<value>Allows country code of either United States or Canada</value>
+         </message>
+         
+         <message id = "PAF263" >
+			<value>Please enter the S&amp;S anniversary amount for the fifth contract period.It cannot be blank.</value>
+			<inputFields>
+        		  <fieldName>ssAnninversaryAmountPeriod5</fieldName>
+	         </inputFields>
+         </message>
+         
+         <message id = "PAF264" >
+			<value>Please enter the S&amp;S anniversary amount for the fourth contract period.It cannot be blank.</value>
+			<inputFields>
+        		  <fieldName>ssAnninversaryAmountPeriod4</fieldName>
+	         </inputFields>
+         </message>
+         
+         <message id = "PAF265" >
+			<value>Please enter the S&amp;S anniversary amount for the third contract period.It cannot be blank.</value>
+			<inputFields>
+        		  <fieldName>ssAnninversaryAmountPeriod3</fieldName>
+	         </inputFields>
+         </message>
+         
+         <message id = "PAF266" >
+			<value>Please enter the S&amp;S anniversary amount for the second contract period.It cannot be blank.</value>
+			<inputFields>
+        		  <fieldName>ssAnninversaryAmountPeriod2</fieldName>
+	         </inputFields>
+         </message>
+         
+    
+         <message id = "PAF267" >
+			<value>Please enter the S&amp;S anniversary amount for the first contract period.It cannot be blank. </value>
+			<inputFields>
+        		  <fieldName>ssAnniversaryContractAmount</fieldName>
+	         </inputFields>
+		 </message>
+		 
+		 <message id="PAF268">
+			<value>S&amp;S anniversary amount period 2 must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod2</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF269">
+			<value>S&amp;S anniversary amount period 3 must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod3</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF270">
+			<value>S&amp;S anniversary amount period 4 must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod4</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF271">
+			<value>S&amp;S anniversary amount period 5 must be between 0 and 999,999,999.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod5</fieldName>
+			</inputFields>
+		</message>
+
+		<message id="PAF272">
+			<value>Please provide valid S&amp;S anniversary amount for the fifth contract period.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod5</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF273">
+			<value>Please provide valid S&amp;S anniversary amount for the fourth contract period.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod4</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF274">
+			<value>Please provide valid S&amp;S anniversary amount for the third contract period.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod3</fieldName>
+			</inputFields>
+		</message>
+		
+		<message id="PAF275">
+			<value>Please provide valid S&amp;S anniversary amount for the second contract period.</value>
+			<inputFields>
+				<fieldName>ssAnninversaryAmountPeriod2</fieldName>
+			</inputFields>
+		</message>
+	
+		<message id="PAF284">
+			<value>SAP customer number cannot be empty.</value>
+		</message>
+			<message id="PAF285">
+			<value>Discount rate must be between 0 and 100.</value>
+			<inputFields>
+				<fieldName>discount</fieldName>
+			</inputFields>
+		</message>
+		<message id="PAF286">
+			<value>Discount rate must be numeric and only 2 decimals allowed.</value>
+			<inputFields>
+				<fieldName>discount</fieldName>
+			</inputFields>
+		</message>
+	    </messageType>     
+</OPPTMessages>

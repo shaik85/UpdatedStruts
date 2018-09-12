@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejbbnd:EJBJarBinding xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:common="common.xmi" xmlns:ejb="ejb.xmi" xmlns:ejbbnd="ejbbnd.xmi" xmi:id="EJBJarBinding_1069649441128" currentBackendId="DB2UDBNT_V95_1">
+  <ejbJar href="META-INF/ejb-jar.xml#ejb-jar_ID"/>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069649494024" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/ProposalDataManagerLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ProposalDataManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579024" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingBlockLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579024"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579144" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingFrequencyLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579144"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579244" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579244"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579334" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/CurrencyLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579334"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579434" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/OfferingTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579434"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579524" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/DstrChannelLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579524"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579625" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/DivisionLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579625"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346696132" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesOrgLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346696132"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346696242" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/PaymentTermLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346696242"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070457267886" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesAreaLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070457267886"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1075437631421" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1075437631421"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1272355874569" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/CCTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1272355874569"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1272449317906" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BLBIndicatorLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1272449317906"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1272449317968" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/MCTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1272449317968"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069651215980" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ProposalManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ProposalManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070014990898" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/ProposalLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070014990898"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070346579725" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/ProposalDataManagerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070346579725"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070537170077" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070537170077"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070537170167" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/InventoryManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070537170167"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071201045477" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/CustomerListLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071201045477"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071222071394" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/AccessHistoryLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071222071394"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071639234343" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/PriceManagerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071639234343"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071640381592" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/CurrencyLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071640381592"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071845603126" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/UserManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071845603126"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072443242270" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/SharingLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072443242270"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072766881421" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/ErrorListLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072766881421"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072775898119" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/StatusLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072775898119"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1075570243030" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GeoSecOffLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1074681588231"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1081326102053" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ErrorListManagerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1081326102053"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1090325115496" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ESWDataLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1090325115496"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1117458299313" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserGroupLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1117458299313"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1289296975781" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/ProposalCountLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1289296975781"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069651653479" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesOrgLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#SalesOrg"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069655537023" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/CurrencyLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Currency"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069657446479" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/DivisionLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Division"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069657446480" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/DstrChannelLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#DstrChannel"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069657209030" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#Session_1069672127031"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069669832842" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingTypeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BillingType"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069670916110" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingFrequencyLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BillingFrequency"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069671127554" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/PaymentTermLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#PaymentTerm"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069671232385" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BillingBlockLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BillingBlock"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069680192840" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/customer/CustomerLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Customer"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396599" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/InventoryManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396599"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069680308917" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/DMLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#DM"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396659" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/dmmgr/DMManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396659"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069680443410" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/SWOLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#SWO"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396759" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396759"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069680616539" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/EELocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#EE"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396799" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396799"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069680729151" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/PriceLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Price"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396839" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396839"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069684692971" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/dmmgr/DMManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#DMManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887585" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887585"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887625" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/DMLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887625"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887655" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/VarianceDMLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887655"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887696" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/HistoryDMLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887696"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1157031346576" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceSWOLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1157031346576"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1157031348309" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceEELocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1157031348309"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1157031348409" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VariancePriceLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1157031348409"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069684692972" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/InventoryManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#InventoryManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887726" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/dmmgr/DMManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887726"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887766" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887766"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887806" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/customer/CustomerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887806"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887836" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/customer/HistoryCustomerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887836"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069684719579" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#SWOManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887866" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887866"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069684743363" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#SWOInfo"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887896" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/SWOLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887896"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887926" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/HistorySWOLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887926"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887956" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceSWOLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887956"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016887986" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/EELocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016887986"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016888006" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/HistoryEELocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016888006"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016888036" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceEELocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016888036"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016888056" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/PriceLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016888056"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070016888086" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VariancePriceLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070016888086"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1074780203169" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/TempEELocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1074780203169"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972070" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/customer/HistoryCustomerLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#HistoryCustomer"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396879" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/InventoryManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396879"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972071" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/HistoryDMLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#HistoryDM"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396899" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/dmmgr/DMManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396899"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972072" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/dm/VarianceDMLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#VarianceDM"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396919" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/dmmgr/DMManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396919"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070457268247" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesAreaLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070457268247"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972073" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/HistorySWOLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#HistorySWO"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396969" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396969"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972074" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceSWOLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#VarianceSWO"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396979" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396979"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972075" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/HistoryEELocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#HistoryEE"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084396999" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084396999"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972076" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VarianceEELocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#VarianceEE"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084397019" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084397019"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069685972077" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/VariancePriceLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#VariancePrice"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070084397029" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOInfoHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070084397029"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069989806515" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesAreaLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#SalesArea"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069990188003" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/ProposalLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Proposal"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069931417339" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/RoleLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Role"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1069932777635" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserProfileLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#UserProfile"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070095456047" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/ErrorListLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ErrorList"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070095859739" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/StatusLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Status"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070096190674" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/SharingLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Sharing"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070096549259" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/CustomerListLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#CustomerList"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070099868322" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/OfferingTypeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#OfferingType"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070103947948" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/reportmgr/ReportManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ReportManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1074835611124" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ProposalManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1074835611124"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1097137539478" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1097137539478"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070103997249" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/GroupManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#GroupManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070702097085" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GroupLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070702097085"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072182882141" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesOrgLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072182882141"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072685221692" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/UserManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072685221692"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070104012301" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/UserManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#UserManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070104189195" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/SalesOrgLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070104189195"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070104189205" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/RoleLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070104189205"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070104189215" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserProfileLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070104189215"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070104189225" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GroupLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070104189225"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070857150286" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/orgmgr/GroupManagerHome">
+      <bindingEjbRef href="META-INF/ejb-jar.xml#EjbRef_1070857150286"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070875406652" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BPCustListLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070875406652"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1070875406692" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BPLegacyNoLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1070875406692"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1072435858756" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GeoSecOffLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1072435858756"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1073043133488" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1073043133488"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1108463221023" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ProposalManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1108463221023"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1117460337584" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserGroupLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1117460337584"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566494853" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/UserTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566494853"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566514972" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BARoleLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566514972"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1307021672335" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserGroupLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1307021672335"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1307021672366" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/ActivityLogLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1307021672366"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070357296274" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/AccessHistoryLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#AccessHistory"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070357407094" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BPCustListLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BPCustList"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070357510973" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BPLegacyNoLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BPLegacyNo"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070357564971" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GeoSecOffLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#GeoSecOff"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070447274607" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#JMSConnectorBean"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070695399264" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/GroupLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#Group"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070696394525" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/swo/TempEELocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#TempEE"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070697683979" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swomgr/EEPriceManagerLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#EEPriceManager"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1070697738598" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/invmgr/PriceManagerLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#PriceManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071639234503" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swomgr/EEPriceManagerLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071639234503"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1071639234513" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/swo/SWOManagerHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1071639234513"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1081317988597" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ErrorListManagerLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ErrorListManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1081327608410" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/ErrorListLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1081327608410"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1090325115686" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/pcm/ESWDataLocalHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#ESWData"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1113986466169" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/UserGroupLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#UserGroup"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150372866562" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreement"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150376828689" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/baseagreement/BaseAgreementManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#BaseAgreementManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458741" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BARoleLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458741"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458771" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458771"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458811" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementCoverageTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458811"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458851" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementFormLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458851"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458891" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementModificationDetailsLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458891"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458931" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementModificationTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458931"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458962" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementStatusLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458962"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1151566458992" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/ModificationOptionsLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1151566458992"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1152788466824" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/connector/JMSConnectorBean">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1152788466824"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1160489096452" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementChangeLogLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1160489096452"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150458351883" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementCoverageTypeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementCoverageType"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150460777411" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementFormLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementForm"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150468651363" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementStatusLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementStatus"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150468978564" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementModificationTypeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementModificationType"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1150470158030" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementModificationDetailsLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementModificationDetails"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1151078859399" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/ModificationOptionsLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ModificationOptions"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1151492440300" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BARoleLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BARole"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1151492440301" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/UserTypeLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#UserType"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1159797027334" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementChangeLogLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#BaseAgreementChangeLog"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1160661254995" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/service/baseagreement/BaseAgreementDataManagerHome">
+    <enterpriseBean xmi:type="ejb:Session" href="META-INF/ejb-jar.xml#BaseAgreementDataManager"/>
+    <ejbRefBindings xmi:id="EjbRefBinding_1160661254995" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/ModificationOptionsLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1160661254995"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1160661255035" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementModificationTypeLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1160661255035"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1161013208586" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementFormLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1161013208586"/>
+    </ejbRefBindings>
+    <ejbRefBindings xmi:id="EjbRefBinding_1161583447429" jndiName="ejb/com/ibm/isc/customerfulfillement/oppt/persistence/baseagreement/BaseAgreementLocalHome">
+      <bindingEjbRef xmi:type="common:EJBLocalRef" href="META-INF/ejb-jar.xml#EJBLocalRef_1161583447429"/>
+    </ejbRefBindings>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1271934820127" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/CCTypeLocalHome" ejbName="CCType">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.CCTypeBean"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1272439620640" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/MCTypeLocalHome" ejbName="MCType">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.MCTypeBean"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1272444351281" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/BLBIndicatorLocalHome" ejbName="BLBIndicator">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#com.ibm.isc.customerfulfillment.bhoppt.persistence.organization.BLBIndicatorBean"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1289288765125" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/ProposalCountLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ProposalCount"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1306399704031" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/proposalcontract/ActionDescriptionLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ActionDescription"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1306749840173" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/ActivityLogLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#ActivityLog"/>
+  </ejbBindings>
+  <ejbBindings xmi:id="EnterpriseBeanBinding_1370344972362" jndiName="ejb/com/ibm/isc/customerfulfillment/bhoppt/persistence/organization/PaymentMethodLocalHome">
+    <enterpriseBean xmi:type="ejb:ContainerManagedEntity" href="META-INF/ejb-jar.xml#PaymentMethod"/>
+  </ejbBindings>
+  <defaultCMPConnectionFactory xmi:id="CMPConnectionFactoryBinding_1069651653479" jndiName="jdbc/isc_customerfulfillment_bhoppt_BHFE1" resAuth="Container"/>
+</ejbbnd:EJBJarBinding>

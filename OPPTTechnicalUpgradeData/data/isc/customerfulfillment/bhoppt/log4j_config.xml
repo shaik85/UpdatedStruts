@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd" >
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="WarnAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="c:/logs/oppterr.log" />
+		<param name="Threshold" value="Warn" />
+		
+		<layout class="com.ibm.isc.customerfulfillment.bhoppt.projectutilities.logging.OPPTPatternLayout">
+			<param name="ConversionPattern" value="[OPPT] [%C][%M] [%d{MM/dd HH:mm:ss}] [%p] %m%n"/>
+		</layout>	
+	</appender>
+	
+	<appender name="DebugAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="c:/logs/opptout.log" />
+		<param name="Threshold" value="debug" />
+		<layout class="com.ibm.isc.customerfulfillment.bhoppt.projectutilities.logging.OPPTPatternLayout">
+			<param name="ConversionPattern" value="[OPPT] [%C][%M] [%d{MM/dd HH:mm:ss}] [%p] [%s] %m%n"/>
+		</layout>
+	</appender>
+
+	<appender name="InfoAppender" class="org.apache.log4j.FileAppender">
+		<param name="File" value="c:/logs/opptactivity.log" />
+		<param name="Threshold" value="info" />
+		<layout class="com.ibm.isc.customerfulfillment.bhoppt.projectutilities.logging.OPPTPatternLayout">
+			<param name="ConversionPattern" value="[OPPT]26M [%d{MM/dd HH:mm:ss}] [%p] [%s] %m%n"/>
+		</layout>
+	</appender>
+
+	<logger name="OPPTErrorLogger" additivity="false">
+		<level value="warn"></level>
+		<appender-ref ref="WarnAppender"/>
+	</logger>
+	
+	<logger name="OPPTLogger" additivity="false">
+		<level value="debug"></level>
+		<appender-ref ref="DebugAppender"/>
+	</logger>
+
+	<logger name="OPPTActivityLogger" additivity="false">
+		<level value="info"></level>
+		<appender-ref ref="InfoAppender"/>
+	</logger>
+		
+	<root>
+		<level value="info"></level>	
+		<appender-ref ref="DebugAppender"/>
+	</root>
+</log4j:configuration>
+

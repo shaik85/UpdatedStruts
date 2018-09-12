@@ -1,0 +1,713 @@
+<Mappings>
+
+	<RFC name="Z_YOTCCM_BLB_INDICATOR_RETR">
+		<InputDTO id="RetrieveComplexTypesInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveComplexTypesOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	
+	
+	<RFC name="Z_FV_RETRIEVE_CUSTOMER_OPPT">
+		<InputDTO id="RetrieveCustInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveCustOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_INELIG_DETAIL_OPPT">
+		<InputDTO id="RetrieveIneligInvenDetailInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveIneligInvenDetailOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_VALIDATE_HEADER_DATA_OPPT">
+		<InputDTO id="ValidateHeaderDataInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateHeaderDataOutputConnectorDTO"></OutputDTO>
+	</RFC>
+<!-- DADO02 BH sateesh Anne
+	<RFC name="Z_FV_RETRIEVE_CUSTLIST_OPPT">
+		<InputDTO id="RetrieveCustListInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveCustListOutputConnectorDTO"></OutputDTO>
+	</RFC>
+ -->
+	<RFC name="Z_FV_PARTNER_CHECK_OPPT">
+		<InputDTO id="PartnerCheckInputConnectorDTO"></InputDTO>
+		<OutputDTO id="PartnerCheckOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_FV_RETRIEVE_PARTNER_OPPT">
+		<InputDTO id="RetrievePartnerInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrievePartnerOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_FV_RETRIEVE_DETAIL_OPPT">
+		<InputDTO id="RetrieveInvenDetailInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveInvenDetailOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_INELIG_DELTA_OPPT">
+		<InputDTO id="RetrieveIneligDeltaInvenInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveIneligInvenDetailOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_FV_RETRIEVE_DELTA_OPPT">
+		<InputDTO id="RetrieveDeltaInventoryInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveDeltaInventoryOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_FV_USERID_MAINT_OPPT">
+		<InputDTO id="UseridMaintInputConnectorDTO"></InputDTO>
+		<OutputDTO id="UseridMaintOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_WV_RETRIEVE_USERAUTH_OPPT">
+		<InputDTO id="RetrieveUserAuthInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveUserAuthOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_VALIDATE_BP_ACCESS_OPPT">
+		<InputDTO id="ValidateBPAccessInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateBPAccessOutputConnectorDTO"></OutputDTO>
+	</RFC>
+			
+	<RFC name="Z_WV_VALIDATE_USER_ACCESS_OPPT">
+		<InputDTO id="ValidateUserAccessInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateUserAccessOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_FV_CREATE_CONTRACT_OPPT">
+		<InputDTO id="CreateContractInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CreateContractOutputConnectorDTO"></OutputDTO>
+	</RFC>			
+	
+	<RFC name="Z_FV_CHANGE_CONTRACT_OPPT">
+		<InputDTO id="ChangeContractInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ChangeContractOutputConnectorDTO"></OutputDTO>
+	</RFC>		
+
+	<RFC name="Z_WV_RETRIEVE_PAYM_TERMS_OPPT">
+		<InputDTO id="RetrievePaymentTermsInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrievePaymentTermsOutputConnectorDTO"></OutputDTO>
+	</RFC>	
+	
+	<RFC name="Z_WV_RETRIEVE_DATE_RULES_OPPT">
+		<InputDTO id="RetrieveDateRulesInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveDateRulesOutputConnectorDTO"></OutputDTO>
+	</RFC>	
+
+	<RFC name="Z_FV_REFRESH_SALES_AREA_OPPT">
+		<InputDTO id="RetrieveSalesAreaInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveSalesAreaOutputConnectorDTO"></OutputDTO>
+	</RFC>	
+	
+	<RFC name="Z_FV_REFRESH_CURRENCY_OPPT">
+		<InputDTO id="RefreshCurrencyInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RefreshCurrencyOutputConnectorDTO"></OutputDTO>
+	</RFC>	
+
+	<RFC name="Z_WV_RETRIEVE_BILL_BLOCK_OPPT">
+		<InputDTO id="RetrieveBillingBlockInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveBillingBlockOutputConnectorDTO"></OutputDTO>
+	</RFC>	
+
+	<RFC name="Z_WV_CREATE_VAR_OPPT">
+		<InputDTO id="CreateVarianceReportInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CreateVarianceReportOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_CHECK_VARIANCE_OPPT">
+		<InputDTO id="CheckVarianceInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CheckVarianceOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_WV_REFRESH_VARIANCE_OPPT">
+		<InputDTO id="RefreshVarianceInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RefreshVarianceOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_COMPARE_AUTHOR_OPPT">
+		<InputDTO id="CompareAuthorInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CompareAuthorOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_FV_STATUS_CHECK_OPPT">
+		<InputDTO id="StatusCheckInputConnectorDTO"></InputDTO>
+		<OutputDTO id="StatusCheckOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_FV_RETRIEVE_CONFIG_OPPT">
+		<InputDTO id="RetrieveInvenConfigInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveInvenConfigOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_FV_PRICE_INQUIRY_OPPT">
+		<InputDTO id="PriceInquiryInputConnectorDTO"></InputDTO>
+		<OutputDTO id="PriceInquiryOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_FV_VALIDATE_CONFIG_OPPT">
+		<InputDTO id="ValidateInvenConfigInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateInvenConfigOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<!-- CR 4520 -->
+	<RFC name="Z_WV_RETRIEVE_SORG_AUTH_OPPT">
+		<InputDTO id="RetrieveSalesOrgAuthInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveSalesOrgAuthOutputConnectorDTO"></OutputDTO>
+	</RFC>
+
+	<RFC name="Z_WV_BASE_AGREEMENT_CREATE">
+		<InputDTO id="CreateBaseAgreementInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CreateBaseAgreementOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_WV_BASE_AGREEMENT_UPDATE">
+		<InputDTO id="UpdateBaseAgreementInputConnectorDTO"></InputDTO>
+		<OutputDTO id="UpdateBaseAgreementOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	
+	<RFC name="Z_WV_BA_MODIFICATION_CREATE">
+		<InputDTO id="CreateModificationInputConnectorDTO"></InputDTO>
+		<OutputDTO id="CreateModificationOutputConnectorDTO"></OutputDTO>
+	</RFC>
+<RFC name="Z_WV_BA_MODIFICATION_UPDATE">
+		<InputDTO id="UpdateModificationInputConnectorDTO"></InputDTO>
+		<OutputDTO id="UpdateModificationOutputConnectorDTO"></OutputDTO>
+	</RFC>
+		
+	<RFC name="Z_YOTCCM_COMP_CONTR_IDNT_VALD">
+		<InputDTO id="ValidateComplexDataInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateComplexDataOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	<!--
+	<RFC name="Z_FV_VALIDATE_COMPLEX_DATA_OPPT">
+		<InputDTO id="ValidateComplexDataInputConnectorDTO"></InputDTO>
+		<OutputDTO id="ValidateComplexDataOutputConnectorDTO"></OutputDTO>
+	</RFC>
+	-->
+	<!-- DADO02 -->
+	<RFC name="Z_FV_RETRIEVE_CUSTLIST_OPPT">
+		<InputDTO id="RetrieveSiteIDListInputConnectorDTO"></InputDTO>
+		<OutputDTO id="RetrieveSiteIDListOutputConnectorDTO"></OutputDTO>
+	</RFC>
+    <!-- dado02 -->
+	<DTO id="RetrieveSiteIDListInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSiteIDListInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>	
+	<DTO id="RetrieveSiteIDListOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSiteIDListConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveComplexTypesInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveComplexTypesInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveComplexTypesOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveComplexTypesOutputConnectorDTODeSerializer</String2Object>
+	</DTO>
+	
+
+		
+	<DTO id="CompareAuthorInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CompareAuthorInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="CompareAuthorOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CompareAuthorOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="RefreshVarianceInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RefreshVarianceInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RefreshVarianceOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RefreshVarianceOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+			
+	<DTO id="CheckVarianceInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CheckVarianceInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="CheckVarianceOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CheckVarianceOutputConnectorDTODeserializer</String2Object>
+	</DTO>		
+		
+	<DTO id="CreateVarianceReportInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateVarianceReportInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="CreateVarianceReportOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateVarianceReportOutputConnectorDTODeserializer</String2Object>
+	</DTO>		
+	
+	<DTO id="RetrievePaymentTermsInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrievePaymentTermsInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrievePaymentTermsOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrievePaymentTermsOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+	
+	<DTO id="RetrieveDateRulesInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveDateRulesInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveDateRulesOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveDateRulesOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+	
+	<DTO id="RetrieveSalesAreaInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSalesAreaInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveSalesAreaOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSalesAreaOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+
+	<DTO id="RefreshCurrencyInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RefreshCurrencyInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RefreshCurrencyOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RefreshCurrencyOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+				
+
+	<DTO id="RetrieveBillingBlockInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveBillingBlockInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveBillingBlockOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveBillingBlockOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+						
+	<DTO id="CreateContractInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateContractInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="CreateContractOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateContractOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+		
+	<DTO id="ChangeContractInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ChangeContractInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="ChangeContractOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ChangeContractOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+			
+	<DTO id="RetrieveCustInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveCustInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveCustOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveCustConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="GenericConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.GenericConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="OrgConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.OrgConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="SWOConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.SWOConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="EEConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.EEConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="PriceConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PriceConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="ComplexTypesConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ComplexTypesConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrieveIneligInvenDetailInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveIneligInvenDetailInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveInvenDetailOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveInvenDetailOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrieveIneligInvenDetailOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveIneligInvenDetailOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="ValidateHeaderDataInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateHeaderDataInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="ValidateHeaderDataOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateHeaderDataOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrieveInvenConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveInvenConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveCustListInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveCustListInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveCustListOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveCustListOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="CustomerListConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CustomerListConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="PartnerCheckInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PartnerCheckInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="PartnerCheckOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PartnerCheckOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrievePartnerInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrievePartnerInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrievePartnerOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrievePartnerOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrievePartnerConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrievePartnerConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrieveInvenDetailInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveInvenDetailInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveIneligDeltaInvenInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveIneligDeltaInvenInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveDeltaInventoryInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveDeltaInventoryInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="RetrieveDeltaInventoryOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveDeltaInventoryOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="UseridMaintInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UseridMaintInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+
+	<DTO id="UseridMaintOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UseridMaintOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveUserAuthInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveUserAuthInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveUserAuthOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveUserAuthOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+	
+	<DTO id="ValidateBPAccessInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateBPAccessInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>	
+	
+	<DTO id="ValidateBPAccessOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateBPAccessOutputConnectorDTODeserializer</String2Object>
+	</DTO>		
+
+	<DTO id="ValidateUserAccessInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateUserAccessInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>	
+	
+	<DTO id="ValidateUserAccessOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateUserAccessOutputConnectorDTODeserializer</String2Object>
+	</DTO>		
+	
+	<DTO id="BillingBlockConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.BillingBlockConnectorDTODeserializer</String2Object>
+	</DTO>	
+	
+	<DTO id="BillingTypeConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.BillingTypeConnectorDTODeserializer</String2Object>
+	</DTO>	
+		
+	<DTO id="CustListAndSeqConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CustListAndSeqConnectorDTODeserializer</String2Object>
+	</DTO>	
+
+	<DTO id="CustListAndSeqConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CustListAndSeqConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>		
+		
+	<DTO id="DivisionConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.DivisionConnectorDTODeserializer</String2Object>
+	</DTO>	
+	
+	<DTO id="DstrChannelConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.DstrChannelConnectorDTODeserializer</String2Object>
+	</DTO>	
+
+	<DTO id="PaymentTermConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PaymentTermConnectorDTODeserializer</String2Object>
+	</DTO>	
+
+	<DTO id="SalesAreaConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.SalesAreaConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="SalesOrgConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.SalesOrgConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="RetrieveUserAuthConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveUserAuthConnectorDTODeserializer</String2Object>
+	</DTO>		
+
+	<DTO id="CheckVarianceConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CheckVarianceConnectorDTODeserializer</String2Object>
+	</DTO>	
+
+	<DTO id="CurrencyConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CurrencyConnectorDTODeserializer</String2Object>
+	</DTO>		
+
+	<DTO id="StatusCheckInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.StatusCheckInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>	
+
+	<DTO id="StatusCheckOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.StatusCheckOutputConnectorDTODeserializer</String2Object>
+	</DTO>		
+	
+	<DTO id="MessageConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.MessageConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveInvenConfigInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveInvenConfigInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>	
+
+	<DTO id="RetrieveInvenConfigOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveInvenConfigOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveConfigConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveConfigConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="ValueMetricConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValueMetricConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="LicenseConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.LicenseConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="ChargeOptionConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ChargeOptionConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="UseLevelConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UseLevelConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="PriceInquiryInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PriceInquiryInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="PriceInquiryOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PriceInquiryOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="ValidateInvenConfigInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateInvenConfigInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="ValidateInvenConfigOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateInvenConfigOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+
+	<DTO id="ValidateConfigConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateConfigConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="ValidateInvenConfigConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateInvenConfigConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="PartnerInfoConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.PartnerInfoConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="EEDetailsConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.EEDetailsConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="ChangeCreateContractInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ChangeCreateContractInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<!-- CR 4520 starts -->	
+	<DTO id="RetrieveSalesOrgAuthInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSalesOrgAuthInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="RetrieveSalesOrgAuthOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveSalesOrgAuthOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	
+	<DTO id="SalesOrgAccessDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.SalesOrgAccessDTODeserializer</String2Object>
+	</DTO>	
+	<!-- CR 4520 ends -->	
+	
+	<!--DTO id="RetrieveIneligDeltaInvenOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.RetrieveIneligInvenDetailOutputConnectorDTODeserializer</String2Object>
+		</DTO-->
+	<!--  CONNECTOR CLASSES FOR BASE AGREEMENT  -->	
+	<DTO id="CreateBaseAgreementInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateBaseAgreementInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="CreateBaseAgreementOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateBaseAgreementOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	<DTO id="UpdateBaseAgreementInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UpdateBaseAgreementInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="UpdateBaseAgreementOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UpdateBaseAgreementOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	<DTO id="CreateModificationInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateModificationInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	
+	<DTO id="CreateModificationOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.CreateModificationOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+	<DTO id="UpdateModificationInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UpdateModificationInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	<DTO id="UpdateModificationOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.UpdateModificationOutputConnectorDTODeserializer</String2Object>
+	</DTO>	
+	<DTO id="ValidateComplexDataInputConnectorDTO">
+		<Object2String>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateComplexDataInputConnectorDTOSerializer</Object2String>
+		<String2Object></String2Object>
+	</DTO>
+	<DTO id="ValidateComplexDataOutputConnectorDTO">
+		<Object2String></Object2String>
+		<String2Object>com.ibm.isc.customerfulfillment.bhoppt.connector.connectordto.ValidateComplexDataOutputConnectorDTODeserializer</String2Object>
+	</DTO>
+</Mappings>

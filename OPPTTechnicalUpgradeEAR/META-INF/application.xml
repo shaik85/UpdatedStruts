@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application id="Application_ID" version="1.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/application_1_4.xsd">
+	<display-name>
+	OPPTTechnicalUpgradeEAR</display-name>
+	<module id="EjbModule_1350368024695">
+		<ejb>OPPTTechnicalUpgradeEJB.jar</ejb>
+	</module>
+	<module id="WebModule_1457009083650">
+		<web>
+			<web-uri>OPPTTechnicalUpgradeWeb.war</web-uri>
+			<context-root>/isc/customerfulfillment/bhoppt</context-root>
+		</web>
+	</module>
+	<security-role>
+		<description>OPPT role</description>
+		<role-name>OPPT</role-name>
+	</security-role>
+</application>
+

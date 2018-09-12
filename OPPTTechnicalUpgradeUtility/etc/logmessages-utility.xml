@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE msg-config SYSTEM "logmessages.dtd" >
+
+<msg-config>
+	<msg-list project="OPPT Utility Module Messages" >
+		<msg-group id="ServLoc" module="ServiceLocator">
+			<msg no="101" level="error">
+				<text><v0/>|<v1/>|Naming Exception: <v3/>.</text>
+			</msg>
+			<msg no="102" level="error">
+				<text><v0/>|<v1/>|ClassNotFound Exception: <v3/>.</text>
+			</msg>
+		</msg-group>
+	</msg-list>
+</msg-config>
