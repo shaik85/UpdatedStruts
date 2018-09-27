@@ -13,6 +13,7 @@ public class HelloWorld extends ActionSupport {
  * Provide default valuie for Message property.
  */
   public static final String MESSAGE = "HelloWorld.message";
+  public static final String MESSAGE = "HelloWorld1.message";
 
   /**
  * Field for Message property.
