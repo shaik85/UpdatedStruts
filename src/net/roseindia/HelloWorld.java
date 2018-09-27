@@ -14,6 +14,7 @@ public class HelloWorld extends ActionSupport {
  */
   public static final String MESSAGE = "HelloWorld.message";
   public static final String MESSAGE = "HelloWorld1.message";
+  public static final String MESSAGE = "Helloworld2.message";
 
   /**
  * Field for Message property.
